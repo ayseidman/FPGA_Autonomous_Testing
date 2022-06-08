@@ -1,0 +1,11 @@
+# Output products list for <Counter>
+Counter.asy
+Counter.ngc
+Counter.sym
+Counter.v
+Counter.veo
+Counter.vhd
+Counter.vho
+Counter.xco
+Counter_flist.txt
+Counter_xmdf.tcl

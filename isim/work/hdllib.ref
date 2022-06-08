@@ -1,0 +1,6 @@
+EN controller_tb_vhd NULL C:/Xilinx92i/DTSD_LabWork2/Controller_TB.vhd sub00/vhpl04 1654682019
+AR controller_tb_vhd behavior C:/Xilinx92i/DTSD_LabWork2/Controller_TB.vhd sub00/vhpl05 1654682020
+AR counter behavioral C:/Xilinx92i/DTSD_LabWork2/Counter.vhd sub00/vhpl01 1654681418
+EN counter NULL C:/Xilinx92i/DTSD_LabWork2/Counter.vhd sub00/vhpl00 1654681417
+AR controller behavioral C:/Xilinx92i/DTSD_LabWork2/Controller.vhd sub00/vhpl03 1654681557
+EN controller NULL C:/Xilinx92i/DTSD_LabWork2/Controller.vhd sub00/vhpl02 1654681556

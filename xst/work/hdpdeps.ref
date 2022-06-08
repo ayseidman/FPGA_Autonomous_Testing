@@ -1,0 +1,13 @@
+V3 7
+FL $XILINX/DTSD_LabWork2/Controller.vhd 2022/06/08.12:39:36 J.36
+EN work/Controller 1654681399 FL $XILINX/DTSD_LabWork2/Controller.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583 PB ieee/MATH_REAL 1177545585
+AR work/Controller/Behavioral 1654681400 \
+      FL $XILINX/DTSD_LabWork2/Controller.vhd EN work/Controller 1654681399 \
+      CP Counter
+FL $XILINX/DTSD_LabWork2/Counter.vhd 2022/06/06.16:04:22 J.36
+EN work/Counter 1654681397 FL $XILINX/DTSD_LabWork2/Counter.vhd \
+      PB ieee/std_logic_1164 1177545575 PH ieee/NUMERIC_STD 1177545583
+AR work/Counter/Behavioral 1654681398 \
+      FL $XILINX/DTSD_LabWork2/Counter.vhd EN work/Counter 1654681397

@@ -1,0 +1,41 @@
+ command line:
+   ./Controller_TB_vhd_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  56083
+
+Wed Jun 08 12:53:41 2022
+
+Total Line Count : 119
+
+ Elaboration time : 0 sec.
+
+ Estimate current memory usage : 158.032 Meg. 
+
+ Total Signals          : 23
+ Total Nets             : 31
+ Total Signal Drivers   : 13
+ Total Blocks           : 8
+ Total Primitive Blocks : 1
+ Total Processes        : 9
+ Total Traceable Variables  : 3
+ Total Scalar Nets and Variables : 34
+ntrace select -o on -n /Controller_TB_vhd/reset 
+ntrace select -o on -n /Controller_TB_vhd/start 
+ntrace select -o on -n /Controller_TB_vhd/clk 
+ntrace select -o on -n /Controller_TB_vhd/lfsrncounter 
+ntrace select -o on -n /Controller_TB_vhd/done 
+ntrace select -o on -n /Controller_TB_vhd/init 
+ntrace select -o on -n /Controller_TB_vhd/stop 
+ntrace select -o on -n /Controller_TB_vhd/uut/current_state 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+ Simulation time 0.03125 sec.
+
+ Estimate current memory usage : 170.75 Meg. 
+
+Wed Jun 08 12:53:48 2022
+

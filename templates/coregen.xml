@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RootFolder label="COREGEN" treetype="folder" language="COREGEN">
+	<Folder label="VERILOG Component Instantiation" treetype="folder">
+		<Template label="Counter" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+Counter YourInstanceName (
+    .clk(clk),
+    .ce(ce),
+    .ainit(ainit),
+    .q(q)); // Bus [14 : 0] 
+
+ 
+		</Template>
+		<Template label="MUX" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+MUX YourInstanceName (
+    .M(M), // Bus [3 : 0] 
+    .S(S), // Bus [1 : 0] 
+    .O(O));
+
+ 
+		</Template>
+	</Folder>
+	<Folder label="VHDL Component Instantiation" treetype="folder">
+		<Template label="Counter" treetype="template">
+ 
+ 
+-- The following code must appear in the VHDL architecture header:
+ 
+component Counter
+    port (
+    clk: IN std_logic;
+    ce: IN std_logic;
+    ainit: IN std_logic;
+    q: OUT std_logic_VECTOR(14 downto 0));
+end component;
+
+
+ 
+-------------------------------------------------------------
+ 
+-- The following code must appear in the VHDL architecture body.
+-- Substitute your own instance name and net names.
+ 
+your_instance_name : Counter
+        port map (
+            clk =&gt; clk,
+            ce =&gt; ce,
+            ainit =&gt; ainit,
+            q =&gt; q);
+ 
+		</Template>
+		<Template label="MUX" treetype="template">
+ 
+ 
+-- The following code must appear in the VHDL architecture header:
+ 
+component MUX
+    port (
+    M: IN std_logic_VECTOR(3 downto 0);
+    S: IN std_logic_VECTOR(1 downto 0);
+    O: OUT std_logic);
+end component;
+
+
+ 
+-------------------------------------------------------------
+ 
+-- The following code must appear in the VHDL architecture body.
+-- Substitute your own instance name and net names.
+ 
+your_instance_name : MUX
+        port map (
+            M =&gt; M,
+            S =&gt; S,
+            O =&gt; O);
+ 
+		</Template>
+	</Folder>
+</RootFolder>

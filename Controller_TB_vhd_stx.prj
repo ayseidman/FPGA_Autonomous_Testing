@@ -1,0 +1,3 @@
+vhdl isim_temp "Counter.vhd"
+vhdl isim_temp "Controller.vhd"
+vhdl isim_temp "Controller_TB.vhd"

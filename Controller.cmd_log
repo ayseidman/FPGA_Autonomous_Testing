@@ -1,0 +1,1 @@
+xst -ise "C:/Xilinx92i/DTSD_LabWork2/DTSD_LabWork2.ise" -intstyle ise -ifn Controller.xst -ofn Controller.syr
