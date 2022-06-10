@@ -1,0 +1,17 @@
+MODULE tristates_8bit
+	SUBMODULE tristate_buffer
+		INSTANCE XLXI_1
+	SUBMODULE tristate_buffer
+		INSTANCE XLXI_2
+	SUBMODULE tristate_buffer
+		INSTANCE XLXI_3
+	SUBMODULE tristate_buffer
+		INSTANCE XLXI_4
+	SUBMODULE tristate_buffer
+		INSTANCE XLXI_5
+	SUBMODULE tristate_buffer
+		INSTANCE XLXI_6
+	SUBMODULE tristate_buffer
+		INSTANCE XLXI_7
+	SUBMODULE tristate_buffer
+		INSTANCE XLXI_8

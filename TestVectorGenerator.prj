@@ -1,0 +1,3 @@
+vhdl work "LFSR.vhd"
+vhdl work "Counter.vhd"
+vhdl work "TestVectorGenerator.vhd"

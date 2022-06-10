@@ -1,0 +1,3 @@
+MODULE MAR
+	SUBMODULE tristates_8bit
+		INSTANCE XLXI_3

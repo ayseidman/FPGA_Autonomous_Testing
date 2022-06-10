@@ -1,0 +1,8 @@
+vhdl work "LFSR.vhd"
+vhdl work "Counter.vhd"
+vhdl work "TestVectorGenerator.vhd"
+vhdl work "SignatureGenerator.vhd"
+vhdl work "Controller.vhd"
+vhdl work "CompressionCounter.vhd"
+vhdl work "Comparator.vhd"
+vhdl work "TestEquipment.vhd"

@@ -1,0 +1,3 @@
+MODULE IR
+	SUBMODULE tristates_8bit
+		INSTANCE XLXI_3

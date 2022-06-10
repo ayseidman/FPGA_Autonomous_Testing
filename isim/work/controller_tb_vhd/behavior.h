@@ -26,7 +26,7 @@ public:
 HSim__s4 CN;
 HSim__s4 CR;
 HSim__s4 CU;
-    HSim__s1 SA[7];
+    HSim__s1 SA[8];
     Work_controller_tb_vhd_behavior(const char * name);
     ~Work_controller_tb_vhd_behavior();
     void constructObject();

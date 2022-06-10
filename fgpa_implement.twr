@@ -1,0 +1,132 @@
+--------------------------------------------------------------------------------
+Release 9.2i Trace 
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx92i\bin\nt\trce.exe -ise C:/Xilinx92i/DTSD_LabWork2/DTSD_LabWork2.ise
+-intstyle ise -e 3 -s 5 -xml FGPA_IMPLEMENT FGPA_IMPLEMENT.ncd -o
+FGPA_IMPLEMENT.twr FGPA_IMPLEMENT.pcf -ucf FGPA_IMPLEMENT.ucf
+
+Design file:              fgpa_implement.ncd
+Physical constraint file: fgpa_implement.pcf
+Device,package,speed:     xc3s200,ft256,-5 (PRODUCTION 1.39 2007-04-13)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CLK
+------------+------------+------------+------------------+--------+
+            |  Setup to  |  Hold to   |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+Start       |    4.259(R)|   -0.459(R)|CLK_BUFGP         |   0.000|
+reset       |    3.893(R)|   -0.556(R)|CLK_BUFGP         |   0.000|
+uut_output  |    5.465(R)|   -0.140(R)|CLK_BUFGP         |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock CLK to Pad
+-------------+------------+------------------+--------+
+             | clk (edge) |                  | Clock  |
+Destination  |   to PAD   |Internal Clock(s) | Phase  |
+-------------+------------+------------------+--------+
+Done         |   12.317(R)|CLK_BUFGP         |   0.000|
+PASS_nFAIL1  |   12.784(R)|CLK_BUFGP         |   0.000|
+PASS_nFAIL2  |   14.245(R)|CLK_BUFGP         |   0.000|
+uut_input<0> |   10.615(R)|CLK_BUFGP         |   0.000|
+uut_input<1> |   10.460(R)|CLK_BUFGP         |   0.000|
+uut_input<2> |   10.378(R)|CLK_BUFGP         |   0.000|
+uut_input<3> |   10.589(R)|CLK_BUFGP         |   0.000|
+uut_input<4> |   10.302(R)|CLK_BUFGP         |   0.000|
+uut_input<5> |   10.087(R)|CLK_BUFGP         |   0.000|
+uut_input<6> |   10.452(R)|CLK_BUFGP         |   0.000|
+uut_input<7> |   11.854(R)|CLK_BUFGP         |   0.000|
+uut_input<8> |    9.884(R)|CLK_BUFGP         |   0.000|
+uut_input<9> |   10.556(R)|CLK_BUFGP         |   0.000|
+uut_input<10>|   10.701(R)|CLK_BUFGP         |   0.000|
+uut_input<11>|    9.776(R)|CLK_BUFGP         |   0.000|
+uut_input<12>|   10.395(R)|CLK_BUFGP         |   0.000|
+uut_input<13>|   10.658(R)|CLK_BUFGP         |   0.000|
+uut_input<14>|   10.737(R)|CLK_BUFGP         |   0.000|
+-------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    4.884|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+SEL_TEST<0>    |Done           |   11.530|
+SEL_TEST<0>    |PASS_nFAIL1    |   13.557|
+SEL_TEST<0>    |PASS_nFAIL2    |   11.808|
+SEL_TEST<0>    |SEL_TEST_OUT<0>|    8.277|
+SEL_TEST<0>    |uut_input<0>   |    9.260|
+SEL_TEST<0>    |uut_input<1>   |    9.535|
+SEL_TEST<0>    |uut_input<2>   |    9.681|
+SEL_TEST<0>    |uut_input<3>   |    9.860|
+SEL_TEST<0>    |uut_input<4>   |    8.971|
+SEL_TEST<0>    |uut_input<5>   |    8.939|
+SEL_TEST<0>    |uut_input<6>   |    9.765|
+SEL_TEST<0>    |uut_input<7>   |    9.821|
+SEL_TEST<0>    |uut_input<8>   |    9.209|
+SEL_TEST<0>    |uut_input<9>   |    9.351|
+SEL_TEST<0>    |uut_input<10>  |    9.006|
+SEL_TEST<0>    |uut_input<11>  |    9.048|
+SEL_TEST<0>    |uut_input<12>  |    9.633|
+SEL_TEST<0>    |uut_input<13>  |    8.624|
+SEL_TEST<0>    |uut_input<14>  |    8.979|
+SEL_TEST<1>    |Done           |   10.776|
+SEL_TEST<1>    |PASS_nFAIL1    |   13.606|
+SEL_TEST<1>    |PASS_nFAIL2    |   11.261|
+SEL_TEST<1>    |SEL_TEST_OUT<1>|    8.046|
+SEL_TEST<1>    |uut_input<0>   |   10.571|
+SEL_TEST<1>    |uut_input<1>   |   10.557|
+SEL_TEST<1>    |uut_input<2>   |   10.350|
+SEL_TEST<1>    |uut_input<3>   |   10.811|
+SEL_TEST<1>    |uut_input<4>   |   10.344|
+SEL_TEST<1>    |uut_input<5>   |    9.903|
+SEL_TEST<1>    |uut_input<6>   |   10.266|
+SEL_TEST<1>    |uut_input<7>   |   10.785|
+SEL_TEST<1>    |uut_input<8>   |    9.954|
+SEL_TEST<1>    |uut_input<9>   |   10.377|
+SEL_TEST<1>    |uut_input<10>  |   10.379|
+SEL_TEST<1>    |uut_input<11>  |    9.407|
+SEL_TEST<1>    |uut_input<12>  |    8.928|
+SEL_TEST<1>    |uut_input<13>  |    9.069|
+SEL_TEST<1>    |uut_input<14>  |    9.424|
+---------------+---------------+---------+
+
+
+Analysis completed Sat Jun 11 00:03:04 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 118 MB
+
+
+

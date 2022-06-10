@@ -65,8 +65,10 @@ ARCHITECTURE behavior OF Controller_TB_vhd IS
 
 	constant CLK_PERIOD : time := 100 ns;
 	
-	constant UUT_INP_N : integer := 15;
+	constant UUT_INP_N : integer := 4;
 	constant N : integer := 10;
+	signal finish : STD_LOGIC := '0';
+	signal sim_out : STD_LOGIC := '0';
 
 BEGIN
 
@@ -85,12 +87,15 @@ BEGIN
 	
 	clock : PROCESS
 	BEGIN
-
-		-- Wait 100 ns for global reset to finish
-		CLK <= '1';
-		wait for CLK_PERIOD/2;
-		CLK <= '0';
-		wait for CLK_PERIOD/2;
+		if finish = '0' and sim_out = '1' then
+			-- Wait 100 ns for global reset to finish
+			CLK <= '1';
+			wait for CLK_PERIOD/2;
+			CLK <= '0';
+			wait for CLK_PERIOD/2;
+		else
+			wait;
+		end if;
 
 	END PROCESS;
 	
@@ -104,8 +109,11 @@ BEGIN
 		start <= '1';
 		wait for CLK_PERIOD;
 		start <= '0';
+		sim <= '1';
+		
+		wait for CLK_PERIOD*(N+2);
 		-- Place stimulus here
-
+		finish <= '1';
 		wait; -- will wait forever
 	END PROCESS;
 

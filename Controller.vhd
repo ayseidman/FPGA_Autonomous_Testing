@@ -53,12 +53,12 @@ type STATE_TYPE is (Idle, InitTest, TestExecution, TestDone);
 signal current_state : STATE_TYPE;
 signal init_temp: STD_LOGIC;
 signal enable_counter : STD_LOGIC;
-signal Q : STD_LOGIC_VECTOR (N-1 downto 0);
+signal Q : STD_LOGIC_VECTOR (UUT_INP_N downto 0);
 
 
 begin
 
-StateCounter: Counter generic map(N => N)
+StateCounter: Counter generic map(N => UUT_INP_N+1)
 							 port map(init => init_temp,
 										 stop_nEN => NOT enable_counter,
 										 CLK => CLK,

@@ -1,0 +1,4 @@
+vhdl isim_temp "LFSR.vhd"
+vhdl isim_temp "Counter.vhd"
+vhdl isim_temp "TestVectorGenerator.vhd"
+vhdl isim_temp "TestVectorGenerator_TB.vhd"

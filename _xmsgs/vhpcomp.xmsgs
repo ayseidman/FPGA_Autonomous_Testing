@@ -8,5 +8,8 @@
 <msg type="warning" file="HDLParsers" num="3583" delta="unknown" >File &quot;<arg fmt="%s" index="1">J:/J.36/env/TOS/HDLPkgs/vhdl/ieee/restricted/math_real.vhd</arg>&quot; which file &quot;<arg fmt="%s" index="2">C:/Xilinx92i/DTSD_LabWork2/Controller.vhd</arg>&quot; depends on is modified, but has not been compiled.  You may need to compile &quot;<arg fmt="%s" index="3">J:/J.36/env/TOS/HDLPkgs/vhdl/ieee/restricted/math_real.vhd</arg>&quot; first.
 </msg>
 
+<msg type="warning" file="HDLParsers" num="3583" delta="unknown" >File &quot;<arg fmt="%s" index="1">J:/J.36/env/TOS/HDLPkgs/vhdl/ieee/restricted/math_real.vhd</arg>&quot; which file &quot;<arg fmt="%s" index="2">C:/Xilinx92i/DTSD_LabWork2/Controller.vhd</arg>&quot; depends on is modified, but has not been compiled.  You may need to compile &quot;<arg fmt="%s" index="3">J:/J.36/env/TOS/HDLPkgs/vhdl/ieee/restricted/math_real.vhd</arg>&quot; first.
+</msg>
+
 </messages>
 

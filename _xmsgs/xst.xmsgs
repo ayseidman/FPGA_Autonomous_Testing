@@ -5,5 +5,50 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">TEST_GEN_ALL/TEST_GENERATOR0/LFSR0/REG_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">FGPA_IMPLEMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">TEST_GEN_ALL/TEST_GENERATOR0/LFSR0/REG_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">FGPA_IMPLEMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">TEST_GEN_ALL/TEST_GENERATOR0/LFSR0/REG_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">FGPA_IMPLEMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">TEST_GEN_ALL/TEST_GENERATOR0/LFSR0/REG_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">FGPA_IMPLEMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">TEST_GEN_ALL/TEST_GENERATOR0/LFSR0/REG_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">FGPA_IMPLEMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">TEST_GEN_ALL/TEST_GENERATOR0/LFSR0/REG_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">FGPA_IMPLEMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">TEST_GEN_ALL/TEST_GENERATOR0/LFSR0/REG_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">FGPA_IMPLEMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">TEST_GEN_ALL/TEST_GENERATOR0/LFSR0/REG_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">FGPA_IMPLEMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">TEST_GEN_ALL/TEST_GENERATOR0/LFSR0/REG_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">FGPA_IMPLEMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">TEST_GEN_ALL/TEST_GENERATOR0/LFSR0/REG_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">FGPA_IMPLEMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">TEST_GEN_ALL/TEST_GENERATOR0/LFSR0/REG_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">FGPA_IMPLEMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">TEST_GEN_ALL/TEST_GENERATOR0/LFSR0/REG_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">FGPA_IMPLEMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">TEST_GEN_ALL/TEST_GENERATOR0/LFSR0/REG_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">FGPA_IMPLEMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">TEST_GEN_ALL/TEST_GENERATOR0/LFSR0/REG_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">FGPA_IMPLEMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">TEST_GEN_ALL/TEST_GENERATOR0/LFSR0/REG_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">FGPA_IMPLEMENT</arg>&gt;.
+</msg>
+
 </messages>
 

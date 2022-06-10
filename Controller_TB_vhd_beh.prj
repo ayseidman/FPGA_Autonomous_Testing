@@ -1,3 +1,0 @@
-vhdl work "Counter.vhd"
-vhdl work "Controller.vhd"
-vhdl work "Controller_TB.vhd"

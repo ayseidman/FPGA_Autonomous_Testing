@@ -1,41 +1,52 @@
  command line:
-   ./Controller_TB_vhd_isim_beh.exe
+   ./TestEquipment_with_UUT_TB_vhd_isim_beh.exe
      -intstyle  ise
      -ipchost  localhost
-     -ipcport  56083
+     -ipcport  57399
 
-Wed Jun 08 12:53:41 2022
+Fri Jun 10 20:25:11 2022
 
-Total Line Count : 119
+Total Line Count : 1206
 
- Elaboration time : 0 sec.
+ Elaboration time : 0.140625 sec.
 
- Estimate current memory usage : 158.032 Meg. 
+ Estimate current memory usage : 206.143 Meg. 
 
- Total Signals          : 23
- Total Nets             : 31
- Total Signal Drivers   : 13
- Total Blocks           : 8
- Total Primitive Blocks : 1
- Total Processes        : 9
- Total Traceable Variables  : 3
- Total Scalar Nets and Variables : 34
-ntrace select -o on -n /Controller_TB_vhd/reset 
-ntrace select -o on -n /Controller_TB_vhd/start 
-ntrace select -o on -n /Controller_TB_vhd/clk 
-ntrace select -o on -n /Controller_TB_vhd/lfsrncounter 
-ntrace select -o on -n /Controller_TB_vhd/done 
-ntrace select -o on -n /Controller_TB_vhd/init 
-ntrace select -o on -n /Controller_TB_vhd/stop 
-ntrace select -o on -n /Controller_TB_vhd/uut/current_state 
+ Total Signals          : 317
+ Total Nets             : 82815
+ Total Signal Drivers   : 113
+ Total Blocks           : 50
+ Total Primitive Blocks : 25
+ Total Processes        : 97
+ Total Traceable Variables  : 54
+ Total Scalar Nets and Variables : 82869
+ntrace select -o on -n /TestEquipment_with_UUT_TB_vhd/start 
+ntrace select -o on -n /TestEquipment_with_UUT_TB_vhd/reset 
+ntrace select -o on -n /TestEquipment_with_UUT_TB_vhd/clk 
+ntrace select -o on -n /TestEquipment_with_UUT_TB_vhd/uut_output 
+ntrace select -o on -n /TestEquipment_with_UUT_TB_vhd/done 
+ntrace select -o on -n /TestEquipment_with_UUT_TB_vhd/pass_nfail1 
+ntrace select -o on -n /TestEquipment_with_UUT_TB_vhd/pass_nfail2 
+ntrace select -o on -n /TestEquipment_with_UUT_TB_vhd/uut_input 
+ntrace select -o on -n /TestEquipment_with_UUT_TB_vhd/control 
+ntrace select -o on -n /TestEquipment_with_UUT_TB_vhd/finish 
+ntrace select -o on -n /TestEquipment_with_UUT_TB_vhd/sim 
+ntrace select -o on -n /TestEquipment_with_UUT_TB_vhd/TEST_GEN_8192/signature_result 
+ntrace select -o on -n /TestEquipment_with_UUT_TB_vhd/TEST_GEN_8192/count_result 
+ntrace select -o on -n /TestEquipment_with_UUT_TB_vhd/TEST_GEN_128/signature_result 
+ntrace select -o on -n /TestEquipment_with_UUT_TB_vhd/TEST_GEN_128/count_result 
+ntrace select -o on -n /TestEquipment_with_UUT_TB_vhd/TEST_GEN_ALL/signature_result 
+ntrace select -o on -n /TestEquipment_with_UUT_TB_vhd/TEST_GEN_ALL/count_result 
 ntrace start 
 isimrun 1000 ns 
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
+isimrun all 
+isimrun all 
 
- Simulation time 0.03125 sec.
+ Simulation time 1.07813 sec.
 
- Estimate current memory usage : 170.75 Meg. 
+ Estimate current memory usage : 209.687 Meg. 
 
-Wed Jun 08 12:53:48 2022
+Fri Jun 10 20:27:15 2022
 

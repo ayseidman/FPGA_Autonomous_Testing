@@ -1,0 +1,21 @@
+xst -ise "C:/Xilinx92i/DTSD_LabWork2/DTSD_LabWork2.ise" -intstyle ise -ifn FGPA_IMPLEMENT.xst -ofn FGPA_IMPLEMENT.syr
+xst -ise "C:/Xilinx92i/DTSD_LabWork2/DTSD_LabWork2.ise" -intstyle ise -ifn FGPA_IMPLEMENT.xst -ofn FGPA_IMPLEMENT.syr
+xst -ise "C:/Xilinx92i/DTSD_LabWork2/DTSD_LabWork2.ise" -intstyle ise -ifn FGPA_IMPLEMENT.xst -ofn FGPA_IMPLEMENT.syr
+xst -ise "C:/Xilinx92i/DTSD_LabWork2/DTSD_LabWork2.ise" -intstyle ise -ifn FGPA_IMPLEMENT.xst -ofn FGPA_IMPLEMENT.syr
+xst -ise "C:/Xilinx92i/DTSD_LabWork2/DTSD_LabWork2.ise" -intstyle ise -ifn FGPA_IMPLEMENT.xst -ofn FGPA_IMPLEMENT.syr
+xst -ise "C:/Xilinx92i/DTSD_LabWork2/DTSD_LabWork2.ise" -intstyle ise -ifn FGPA_IMPLEMENT.xst -ofn FGPA_IMPLEMENT.syr
+xst -ise "C:/Xilinx92i/DTSD_LabWork2/DTSD_LabWork2.ise" -intstyle ise -ifn FGPA_IMPLEMENT.xst -ofn FGPA_IMPLEMENT.syr
+xst -ise "C:/Xilinx92i/DTSD_LabWork2/DTSD_LabWork2.ise" -intstyle ise -ifn FGPA_IMPLEMENT.xst -ofn FGPA_IMPLEMENT.syr
+xst -ise "C:/Xilinx92i/DTSD_LabWork2/DTSD_LabWork2.ise" -intstyle ise -ifn FGPA_IMPLEMENT.xst -ofn FGPA_IMPLEMENT.syr
+ngdbuild -ise "C:/Xilinx92i/DTSD_LabWork2/DTSD_LabWork2.ise" -intstyle ise -dd _ngo -nt timestamp -uc "TestEquipment.ucf" -p xc3s200-ft256-5 "FGPA_IMPLEMENT.ngc" FGPA_IMPLEMENT.ngd
+ngdbuild -ise "C:/Xilinx92i/DTSD_LabWork2/DTSD_LabWork2.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-5 "FGPA_IMPLEMENT.ngc" FGPA_IMPLEMENT.ngd
+ngdbuild -ise "C:/Xilinx92i/DTSD_LabWork2/DTSD_LabWork2.ise" -intstyle ise -dd _ngo -nt timestamp -uc "FGPA_IMPLEMENT.ucf" -p xc3s200-ft256-5 "FGPA_IMPLEMENT.ngc" FGPA_IMPLEMENT.ngd
+xst -ise "C:/Xilinx92i/DTSD_LabWork2/DTSD_LabWork2.ise" -intstyle ise -ifn FGPA_IMPLEMENT.xst -ofn FGPA_IMPLEMENT.syr
+ngdbuild -ise "C:/Xilinx92i/DTSD_LabWork2/DTSD_LabWork2.ise" -intstyle ise -dd _ngo -nt timestamp -uc "FGPA_IMPLEMENT.ucf" -p xc3s200-ft256-5 "FGPA_IMPLEMENT.ngc" FGPA_IMPLEMENT.ngd
+ngdbuild -ise "C:/Xilinx92i/DTSD_LabWork2/DTSD_LabWork2.ise" -intstyle ise -dd _ngo -nt timestamp -uc "FGPA_IMPLEMENT.ucf" -p xc3s200-ft256-5 "FGPA_IMPLEMENT.ngc" FGPA_IMPLEMENT.ngd
+map -ise "C:/Xilinx92i/DTSD_LabWork2/DTSD_LabWork2.ise" -intstyle ise -p xc3s200-ft256-5 -cm area -pr b -k 4 -c 100 -o FGPA_IMPLEMENT_map.ncd FGPA_IMPLEMENT.ngd FGPA_IMPLEMENT.pcf
+ngdbuild -ise "C:/Xilinx92i/DTSD_LabWork2/DTSD_LabWork2.ise" -intstyle ise -dd _ngo -nt timestamp -uc "FGPA_IMPLEMENT.ucf" -p xc3s200-ft256-5 "FGPA_IMPLEMENT.ngc" FGPA_IMPLEMENT.ngd
+map -ise "C:/Xilinx92i/DTSD_LabWork2/DTSD_LabWork2.ise" -intstyle ise -p xc3s200-ft256-5 -cm area -pr b -k 4 -c 100 -o FGPA_IMPLEMENT_map.ncd FGPA_IMPLEMENT.ngd FGPA_IMPLEMENT.pcf
+par -ise "C:/Xilinx92i/DTSD_LabWork2/DTSD_LabWork2.ise" -w -intstyle ise -ol std -t 1 FGPA_IMPLEMENT_map.ncd FGPA_IMPLEMENT.ncd FGPA_IMPLEMENT.pcf
+trce -ise "C:/Xilinx92i/DTSD_LabWork2/DTSD_LabWork2.ise" -intstyle ise -e 3 -s 5 -xml FGPA_IMPLEMENT FGPA_IMPLEMENT.ncd -o FGPA_IMPLEMENT.twr FGPA_IMPLEMENT.pcf -ucf FGPA_IMPLEMENT.ucf
+bitgen -ise "C:/Xilinx92i/DTSD_LabWork2/DTSD_LabWork2.ise" -intstyle ise -f FGPA_IMPLEMENT.ut FGPA_IMPLEMENT.ncd

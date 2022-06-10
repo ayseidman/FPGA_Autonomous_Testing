@@ -1,0 +1,3 @@
+MODULE ci1
+	SUBMODULE tristate_buffer
+		INSTANCE XLXI_1

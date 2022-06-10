@@ -1,0 +1,4 @@
+xst -ise "C:/Xilinx92i/DTSD_LabWork2/DTSD_LabWork2.ise" -intstyle ise -ifn TestEquipment.xst -ofn TestEquipment.syr
+xst -ise "C:/Xilinx92i/DTSD_LabWork2/DTSD_LabWork2.ise" -intstyle ise -ifn TestEquipment.xst -ofn TestEquipment.syr
+xst -ise "C:/Xilinx92i/DTSD_LabWork2/DTSD_LabWork2.ise" -intstyle ise -ifn TestEquipment.xst -ofn TestEquipment.syr
+ngdbuild -ise "C:/Xilinx92i/DTSD_LabWork2/DTSD_LabWork2.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-5 "TestEquipment.ngc" TestEquipment.ngd

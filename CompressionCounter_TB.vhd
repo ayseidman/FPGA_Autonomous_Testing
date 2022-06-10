@@ -157,6 +157,7 @@ BEGIN
 		uut_output <= '1';
 		wait for CLK_PERIOD;
 		uut_output <= '0';
+		stop <= '1';
 		wait for CLK_PERIOD;
 		uut_output <= '1';
 		wait for CLK_PERIOD;
