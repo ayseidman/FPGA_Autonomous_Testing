@@ -9,6 +9,7 @@
 -g M2Pin:PullUp
 -g ProgPin:PullUp
 -g DonePin:PullUp
+-g HswapenPin:PullUp
 -g TckPin:PullUp
 -g TdiPin:PullUp
 -g TdoPin:PullUp

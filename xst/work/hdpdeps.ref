@@ -1,67 +1,87 @@
-V3 39
-FL $XILINX/DTSD_LabWork2/74HC153N.vhd 2022/06/08.14:10:03 J.36
-EN work/MUX_74HC153N 1654868916 FL $XILINX/DTSD_LabWork2/74HC153N.vhd \
-      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
-      PB ieee/STD_LOGIC_UNSIGNED 1177545583
-AR work/MUX_74HC153N/Behavioral 1654868917 \
-      FL $XILINX/DTSD_LabWork2/74HC153N.vhd EN work/MUX_74HC153N 1654868916 \
-      CP MUX4x1
-FL $XILINX/DTSD_LabWork2/Comparator.vhd 2022/06/08.14:10:03 J.36
-EN work/Comparator 1654900099 FL $XILINX/DTSD_LabWork2/Comparator.vhd \
-      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
-      PB ieee/STD_LOGIC_UNSIGNED 1177545583
-AR work/Comparator/Behavioral 1654900100 \
-      FL $XILINX/DTSD_LabWork2/Comparator.vhd EN work/Comparator 1654900099
-FL $XILINX/DTSD_LabWork2/CompressionCounter.vhd 2022/06/08.14:10:03 J.36
-EN work/CompressionCounter 1654900097 \
-      FL $XILINX/DTSD_LabWork2/CompressionCounter.vhd PB ieee/std_logic_1164 1177545575 \
-      PB ieee/std_logic_arith 1177545576 PB ieee/STD_LOGIC_UNSIGNED 1177545583
-AR work/CompressionCounter/Behavioral 1654900098 \
-      FL $XILINX/DTSD_LabWork2/CompressionCounter.vhd EN work/CompressionCounter 1654900097 \
+V3 45
+FL /home/ise/Desktop/DTSD_LabWork2/ButtonDebouncer.vhd 2022/06/11.19:03:10 P.20131013
+EN work/clock_enable_debouncing_button 1655132373 \
+      FL /home/ise/Desktop/DTSD_LabWork2/ButtonDebouncer.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/clock_enable_debouncing_button/Behavioral 1655132374 \
+      FL /home/ise/Desktop/DTSD_LabWork2/ButtonDebouncer.vhd \
+      EN work/clock_enable_debouncing_button 1655132373
+EN work/DFF_Debouncing_Button 1655132375 \
+      FL /home/ise/Desktop/DTSD_LabWork2/ButtonDebouncer.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/DFF_Debouncing_Button/Behavioral 1655132376 \
+      FL /home/ise/Desktop/DTSD_LabWork2/ButtonDebouncer.vhd \
+      EN work/DFF_Debouncing_Button 1655132375
+EN work/Debouncing_Button_VHDL 1655132377 \
+      FL /home/ise/Desktop/DTSD_LabWork2/ButtonDebouncer.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Debouncing_Button_VHDL/Behavioral 1655132378 \
+      FL /home/ise/Desktop/DTSD_LabWork2/ButtonDebouncer.vhd \
+      EN work/Debouncing_Button_VHDL 1655132377 \
+      CP work/clock_enable_debouncing_button CP work/DFF_Debouncing_Button
+FL /home/ise/Desktop/DTSD_LabWork2/Comparator.vhd 2022/06/11.00:00:52 P.20131013
+EN work/Comparator 1655132371 FL /home/ise/Desktop/DTSD_LabWork2/Comparator.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Comparator/Behavioral 1655132372 \
+      FL /home/ise/Desktop/DTSD_LabWork2/Comparator.vhd EN work/Comparator 1655132371
+FL /home/ise/Desktop/DTSD_LabWork2/CompressionCounter.vhd 2022/06/11.00:00:52 P.20131013
+EN work/CompressionCounter 1655132369 \
+      FL /home/ise/Desktop/DTSD_LabWork2/CompressionCounter.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/CompressionCounter/Behavioral 1655132370 \
+      FL /home/ise/Desktop/DTSD_LabWork2/CompressionCounter.vhd \
+      EN work/CompressionCounter 1655132369 CP Counter
+FL /home/ise/Desktop/DTSD_LabWork2/Controller.vhd 2022/06/11.19:18:13 P.20131013
+EN work/Controller 1655132363 FL /home/ise/Desktop/DTSD_LabWork2/Controller.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/MATH_REAL 1381692182
+AR work/Controller/Behavioral 1655132364 \
+      FL /home/ise/Desktop/DTSD_LabWork2/Controller.vhd EN work/Controller 1655132363 \
       CP Counter
-FL $XILINX/DTSD_LabWork2/Controller.vhd 2022/06/10.22:18:45 J.36
-EN work/Controller 1654900091 FL $XILINX/DTSD_LabWork2/Controller.vhd \
-      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
-      PB ieee/STD_LOGIC_UNSIGNED 1177545583 PB ieee/MATH_REAL 1177545585
-AR work/Controller/Behavioral 1654900092 \
-      FL $XILINX/DTSD_LabWork2/Controller.vhd EN work/Controller 1654900091 \
-      CP Counter
-FL $XILINX/DTSD_LabWork2/Counter.vhd 2022/06/08.14:10:03 J.36
-EN work/Counter 1654900087 FL $XILINX/DTSD_LabWork2/Counter.vhd \
-      PB ieee/std_logic_1164 1177545575 PH ieee/NUMERIC_STD 1177545583
-AR work/Counter/Behavioral 1654900088 \
-      FL $XILINX/DTSD_LabWork2/Counter.vhd EN work/Counter 1654900087
-FL $XILINX/DTSD_LabWork2/FGPA_IMPLEMENT.vhd 2022/06/10.23:27:26 J.36
-EN work/FGPA_IMPLEMENT 1654900103 FL $XILINX/DTSD_LabWork2/FGPA_IMPLEMENT.vhd \
-      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
-      PB ieee/STD_LOGIC_UNSIGNED 1177545583
-AR work/FGPA_IMPLEMENT/Behavioral 1654900104 \
-      FL $XILINX/DTSD_LabWork2/FGPA_IMPLEMENT.vhd EN work/FGPA_IMPLEMENT 1654900103 \
+FL /home/ise/Desktop/DTSD_LabWork2/Counter.vhd 2022/06/11.00:00:52 P.20131013
+EN work/Counter 1655132359 FL /home/ise/Desktop/DTSD_LabWork2/Counter.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/Counter/Behavioral 1655132360 \
+      FL /home/ise/Desktop/DTSD_LabWork2/Counter.vhd EN work/Counter 1655132359
+FL /home/ise/Desktop/DTSD_LabWork2/FGPA_IMPLEMENT.vhd 2022/06/13.14:59:13 P.20131013
+EN work/FGPA_IMPLEMENT 1655132381 \
+      FL /home/ise/Desktop/DTSD_LabWork2/FGPA_IMPLEMENT.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/FGPA_IMPLEMENT/Behavioral 1655132382 \
+      FL /home/ise/Desktop/DTSD_LabWork2/FGPA_IMPLEMENT.vhd \
+      EN work/FGPA_IMPLEMENT 1655132381 CP Debouncing_Button_VHDL CP Counter \
       CP TestEquipment
-FL $XILINX/DTSD_LabWork2/LFSR.vhd 2022/06/08.23:42:24 J.36
-EN work/LFSR 1654900089 FL $XILINX/DTSD_LabWork2/LFSR.vhd PB ieee/std_logic_1164 1177545575 \
-      PB ieee/std_logic_arith 1177545576 PB ieee/STD_LOGIC_UNSIGNED 1177545583
-AR work/LFSR/Behavioral 1654900090 \
-      FL $XILINX/DTSD_LabWork2/LFSR.vhd EN work/LFSR 1654900089
-FL $XILINX/DTSD_LabWork2/SignatureGenerator.vhd 2022/06/08.23:57:25 J.36
-EN work/SignatureGenerator 1654900095 \
-      FL $XILINX/DTSD_LabWork2/SignatureGenerator.vhd PB ieee/std_logic_1164 1177545575 \
-      PB ieee/std_logic_arith 1177545576 PB ieee/STD_LOGIC_UNSIGNED 1177545583
-AR work/SignatureGenerator/Behavioral 1654900096 \
-      FL $XILINX/DTSD_LabWork2/SignatureGenerator.vhd EN work/SignatureGenerator 1654900095 \
-      CP LFSR
-FL $XILINX/DTSD_LabWork2/TestEquipment.vhd 2022/06/10.21:59:29 J.36
-EN work/TestEquipment 1654900101 FL $XILINX/DTSD_LabWork2/TestEquipment.vhd \
-      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
-      PB ieee/STD_LOGIC_UNSIGNED 1177545583 PH ieee/NUMERIC_STD 1177545583
-AR work/TestEquipment/Behavioral 1654900102 \
-      FL $XILINX/DTSD_LabWork2/TestEquipment.vhd EN work/TestEquipment 1654900101 \
+FL /home/ise/Desktop/DTSD_LabWork2/LFSR.vhd 2022/06/11.00:00:52 P.20131013
+EN work/LFSR 1655132361 FL /home/ise/Desktop/DTSD_LabWork2/LFSR.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/LFSR/Behavioral 1655132362 \
+      FL /home/ise/Desktop/DTSD_LabWork2/LFSR.vhd EN work/LFSR 1655132361
+FL /home/ise/Desktop/DTSD_LabWork2/SignatureGenerator.vhd 2022/06/11.00:00:52 P.20131013
+EN work/SignatureGenerator 1655132367 \
+      FL /home/ise/Desktop/DTSD_LabWork2/SignatureGenerator.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/SignatureGenerator/Behavioral 1655132368 \
+      FL /home/ise/Desktop/DTSD_LabWork2/SignatureGenerator.vhd \
+      EN work/SignatureGenerator 1655132367 CP LFSR
+FL /home/ise/Desktop/DTSD_LabWork2/TestEquipment.vhd 2022/06/11.00:00:52 P.20131013
+EN work/TestEquipment 1655132379 \
+      FL /home/ise/Desktop/DTSD_LabWork2/TestEquipment.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/TestEquipment/Behavioral 1655132380 \
+      FL /home/ise/Desktop/DTSD_LabWork2/TestEquipment.vhd EN work/TestEquipment 1655132379 \
       CP Controller CP TestVectorGenerator CP SignatureGenerator \
       CP CompressionCounter CP Comparator
-FL $XILINX/DTSD_LabWork2/TestVectorGenerator.vhd 2022/06/10.14:35:06 J.36
-EN work/TestVectorGenerator 1654900093 \
-      FL $XILINX/DTSD_LabWork2/TestVectorGenerator.vhd PB ieee/std_logic_1164 1177545575 \
-      PB ieee/std_logic_arith 1177545576 PB ieee/STD_LOGIC_UNSIGNED 1177545583
-AR work/TestVectorGenerator/Behavioral 1654900094 \
-      FL $XILINX/DTSD_LabWork2/TestVectorGenerator.vhd \
-      EN work/TestVectorGenerator 1654900093 CP LFSR CP Counter
+FL /home/ise/Desktop/DTSD_LabWork2/TestVectorGenerator.vhd 2022/06/11.00:00:52 P.20131013
+EN work/TestVectorGenerator 1655132365 \
+      FL /home/ise/Desktop/DTSD_LabWork2/TestVectorGenerator.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/TestVectorGenerator/Behavioral 1655132366 \
+      FL /home/ise/Desktop/DTSD_LabWork2/TestVectorGenerator.vhd \
+      EN work/TestVectorGenerator 1655132365 CP LFSR CP Counter

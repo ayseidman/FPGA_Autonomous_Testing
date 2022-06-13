@@ -1,12 +1,21 @@
-Release 9.2i - xst J.36
-Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to ./xst/projnav.tmp
-CPU : 0.00 / 0.08 s | Elapsed : 0.00 / 0.00 s
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
  
---> Parameter xsthdpdir set to ./xst
-CPU : 0.00 / 0.08 s | Elapsed : 0.00 / 0.00 s
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
  
---> Reading design: FGPA_IMPLEMENT.prj
+--> 
+Reading design: FGPA_IMPLEMENT.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -20,9 +29,9 @@ TABLE OF CONTENTS
   7) Low Level Synthesis
   8) Partition Report
   9) Final Report
-     9.1) Device utilization summary
-     9.2) Partition Resource Summary
-     9.3) TIMING REPORT
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
 
 
 =========================================================================
@@ -43,21 +52,21 @@ Top Module Name                    : FGPA_IMPLEMENT
 Automatic FSM Extraction           : YES
 FSM Encoding Algorithm             : Auto
 Safe Implementation                : No
-FSM Style                          : lut
+FSM Style                          : LUT
 RAM Extraction                     : Yes
 RAM Style                          : Auto
 ROM Extraction                     : Yes
 Mux Style                          : Auto
 Decoder Extraction                 : YES
-Priority Encoder Extraction        : YES
+Priority Encoder Extraction        : Yes
 Shift Register Extraction          : YES
 Logical Shifter Extraction         : YES
 XOR Collapsing                     : YES
 ROM Style                          : Auto
-Mux Extraction                     : YES
+Mux Extraction                     : Yes
 Resource Sharing                   : YES
 Asynchronous To Synchronous        : NO
-Multiplier Style                   : auto
+Multiplier Style                   : Auto
 Automatic Register Balancing       : No
 
 ---- Target Options
@@ -70,14 +79,14 @@ Optimize Instantiated Primitives   : NO
 Use Clock Enable                   : Yes
 Use Synchronous Set                : Yes
 Use Synchronous Reset              : Yes
-Pack IO Registers into IOBs        : auto
+Pack IO Registers into IOBs        : Auto
 Equivalent register Removal        : YES
 
 ---- General Options
 Optimization Goal                  : Speed
 Optimization Effort                : 1
-Library Search Order               : FGPA_IMPLEMENT.lso
-Keep Hierarchy                     : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
 RTL Output                         : Yes
 Global Optimization                : AllClockNets
 Read Cores                         : YES
@@ -85,7 +94,7 @@ Write Timing Constraints           : NO
 Cross Clock Analysis               : NO
 Hierarchy Separator                : /
 Bus Delimiter                      : <>
-Case Specifier                     : maintain
+Case Specifier                     : Maintain
 Slice Utilization Ratio            : 100
 BRAM Utilization Ratio             : 100
 Verilog 2001                       : YES
@@ -98,23 +107,27 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "C:/Xilinx92i/DTSD_LabWork2/Counter.vhd" in Library work.
+Compiling vhdl file "/home/ise/Desktop/DTSD_LabWork2/Counter.vhd" in Library work.
 Architecture behavioral of Entity counter is up to date.
-Compiling vhdl file "C:/Xilinx92i/DTSD_LabWork2/LFSR.vhd" in Library work.
+Compiling vhdl file "/home/ise/Desktop/DTSD_LabWork2/LFSR.vhd" in Library work.
 Architecture behavioral of Entity lfsr is up to date.
-Compiling vhdl file "C:/Xilinx92i/DTSD_LabWork2/Controller.vhd" in Library work.
+Compiling vhdl file "/home/ise/Desktop/DTSD_LabWork2/Controller.vhd" in Library work.
 Architecture behavioral of Entity controller is up to date.
-Compiling vhdl file "C:/Xilinx92i/DTSD_LabWork2/TestVectorGenerator.vhd" in Library work.
+Compiling vhdl file "/home/ise/Desktop/DTSD_LabWork2/TestVectorGenerator.vhd" in Library work.
 Architecture behavioral of Entity testvectorgenerator is up to date.
-Compiling vhdl file "C:/Xilinx92i/DTSD_LabWork2/SignatureGenerator.vhd" in Library work.
+Compiling vhdl file "/home/ise/Desktop/DTSD_LabWork2/SignatureGenerator.vhd" in Library work.
 Architecture behavioral of Entity signaturegenerator is up to date.
-Compiling vhdl file "C:/Xilinx92i/DTSD_LabWork2/CompressionCounter.vhd" in Library work.
+Compiling vhdl file "/home/ise/Desktop/DTSD_LabWork2/CompressionCounter.vhd" in Library work.
 Architecture behavioral of Entity compressioncounter is up to date.
-Compiling vhdl file "C:/Xilinx92i/DTSD_LabWork2/Comparator.vhd" in Library work.
+Compiling vhdl file "/home/ise/Desktop/DTSD_LabWork2/Comparator.vhd" in Library work.
 Architecture behavioral of Entity comparator is up to date.
-Compiling vhdl file "C:/Xilinx92i/DTSD_LabWork2/TestEquipment.vhd" in Library work.
+Compiling vhdl file "/home/ise/Desktop/DTSD_LabWork2/ButtonDebouncer.vhd" in Library work.
+Architecture behavioral of Entity clock_enable_debouncing_button is up to date.
+Architecture behavioral of Entity dff_debouncing_button is up to date.
+Architecture behavioral of Entity debouncing_button_vhdl is up to date.
+Compiling vhdl file "/home/ise/Desktop/DTSD_LabWork2/TestEquipment.vhd" in Library work.
 Architecture behavioral of Entity testequipment is up to date.
-Compiling vhdl file "C:/Xilinx92i/DTSD_LabWork2/FGPA_IMPLEMENT.vhd" in Library work.
+Compiling vhdl file "/home/ise/Desktop/DTSD_LabWork2/FGPA_IMPLEMENT.vhd" in Library work.
 Entity <fgpa_implement> compiled.
 Entity <fgpa_implement> (Architecture <behavioral>) compiled.
 
@@ -122,6 +135,11 @@ Entity <fgpa_implement> (Architecture <behavioral>) compiled.
 *                     Design Hierarchy Analysis                         *
 =========================================================================
 Analyzing hierarchy for entity <FGPA_IMPLEMENT> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Debouncing_Button_VHDL> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Counter> in library <work> (architecture <behavioral>) with generics.
+	N = 16
 
 Analyzing hierarchy for entity <TestEquipment> in library <work> (architecture <behavioral>) with generics.
 	COUNT_LENGTH = 8
@@ -146,6 +164,10 @@ Analyzing hierarchy for entity <TestEquipment> in library <work> (architecture <
 	NUMBER_OF_TEST_CASE = 32768
 	SIGNATURE_LENGTH = 7
 	UUT_INP_N = 15
+
+Analyzing hierarchy for entity <clock_enable_debouncing_button> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DFF_Debouncing_Button> in library <work> (architecture <Behavioral>).
 
 Analyzing hierarchy for entity <Controller> in library <work> (architecture <behavioral>) with generics.
 	N = 128
@@ -204,12 +226,28 @@ Analyzing hierarchy for entity <Counter> in library <work> (architecture <behavi
 Analyzing hierarchy for entity <Counter> in library <work> (architecture <behavioral>) with generics.
 	N = 14
 
+Analyzing hierarchy for entity <Counter> in library <work> (architecture <behavioral>) with generics.
+	N = 16
+
 
 =========================================================================
 *                            HDL Analysis                               *
 =========================================================================
 Analyzing Entity <FGPA_IMPLEMENT> in library <work> (Architecture <behavioral>).
 Entity <FGPA_IMPLEMENT> analyzed. Unit <FGPA_IMPLEMENT> generated.
+
+Analyzing Entity <Debouncing_Button_VHDL> in library <work> (Architecture <behavioral>).
+Entity <Debouncing_Button_VHDL> analyzed. Unit <Debouncing_Button_VHDL> generated.
+
+Analyzing Entity <clock_enable_debouncing_button> in library <work> (Architecture <Behavioral>).
+Entity <clock_enable_debouncing_button> analyzed. Unit <clock_enable_debouncing_button> generated.
+
+Analyzing Entity <DFF_Debouncing_Button> in library <work> (Architecture <Behavioral>).
+Entity <DFF_Debouncing_Button> analyzed. Unit <DFF_Debouncing_Button> generated.
+
+Analyzing generic Entity <Counter.1> in library <work> (Architecture <behavioral>).
+	N = 16
+Entity <Counter.1> analyzed. Unit <Counter.1> generated.
 
 Analyzing generic Entity <TestEquipment.1> in library <work> (Architecture <behavioral>).
 	COUNT_LENGTH = 8
@@ -224,10 +262,6 @@ Analyzing generic Entity <Controller.1> in library <work> (Architecture <behavio
 	N = 128
 	UUT_INP_N = 15
 Entity <Controller.1> analyzed. Unit <Controller.1> generated.
-
-Analyzing generic Entity <Counter.1> in library <work> (Architecture <behavioral>).
-	N = 16
-Entity <Counter.1> analyzed. Unit <Counter.1> generated.
 
 Analyzing generic Entity <TestVectorGenerator> in library <work> (Architecture <behavioral>).
 	UUT_INP_N = 15
@@ -320,8 +354,34 @@ Entity <Comparator.4> analyzed. Unit <Comparator.4> generated.
 
 Performing bidirectional port resolution...
 
+Synthesizing Unit <Counter_1>.
+    Related source file is "/home/ise/Desktop/DTSD_LabWork2/Counter.vhd".
+    Found 16-bit up counter for signal <count>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <Counter_1> synthesized.
+
+
+Synthesizing Unit <clock_enable_debouncing_button>.
+    Related source file is "/home/ise/Desktop/DTSD_LabWork2/ButtonDebouncer.vhd".
+    Found 28-bit up counter for signal <counter>.
+    Found 28-bit comparator greatequal for signal <counter$cmp_ge0000> created at line 21.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 Comparator(s).
+Unit <clock_enable_debouncing_button> synthesized.
+
+
+Synthesizing Unit <DFF_Debouncing_Button>.
+    Related source file is "/home/ise/Desktop/DTSD_LabWork2/ButtonDebouncer.vhd".
+    Found 1-bit register for signal <Q>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <DFF_Debouncing_Button> synthesized.
+
+
 Synthesizing Unit <Comparator_1>.
-    Related source file is "C:/Xilinx92i/DTSD_LabWork2/Comparator.vhd".
+    Related source file is "/home/ise/Desktop/DTSD_LabWork2/Comparator.vhd".
     Found 7-bit comparator equal for signal <Eq$cmp_eq0000> created at line 43.
     Summary:
 	inferred   1 Comparator(s).
@@ -329,20 +389,12 @@ Unit <Comparator_1> synthesized.
 
 
 Synthesizing Unit <Comparator_2>.
-    Related source file is "C:/Xilinx92i/DTSD_LabWork2/Comparator.vhd".
+    Related source file is "/home/ise/Desktop/DTSD_LabWork2/Comparator.vhd".
 Unit <Comparator_2> synthesized.
 
 
-Synthesizing Unit <Counter_1>.
-    Related source file is "C:/Xilinx92i/DTSD_LabWork2/Counter.vhd".
-    Found 16-bit up counter for signal <count>.
-    Summary:
-	inferred   1 Counter(s).
-Unit <Counter_1> synthesized.
-
-
 Synthesizing Unit <LFSR_1>.
-    Related source file is "C:/Xilinx92i/DTSD_LabWork2/LFSR.vhd".
+    Related source file is "/home/ise/Desktop/DTSD_LabWork2/LFSR.vhd".
     Found 1-bit xor15 for signal <FEEDBACK>.
     Found 15-bit register for signal <REG>.
     Summary:
@@ -352,7 +404,7 @@ Unit <LFSR_1> synthesized.
 
 
 Synthesizing Unit <Counter_2>.
-    Related source file is "C:/Xilinx92i/DTSD_LabWork2/Counter.vhd".
+    Related source file is "/home/ise/Desktop/DTSD_LabWork2/Counter.vhd".
     Found 15-bit up counter for signal <count>.
     Summary:
 	inferred   1 Counter(s).
@@ -360,7 +412,7 @@ Unit <Counter_2> synthesized.
 
 
 Synthesizing Unit <LFSR_2>.
-    Related source file is "C:/Xilinx92i/DTSD_LabWork2/LFSR.vhd".
+    Related source file is "/home/ise/Desktop/DTSD_LabWork2/LFSR.vhd".
     Found 1-bit xor8 for signal <FEEDBACK>.
     Found 7-bit register for signal <REG>.
     Summary:
@@ -370,7 +422,7 @@ Unit <LFSR_2> synthesized.
 
 
 Synthesizing Unit <Counter_3>.
-    Related source file is "C:/Xilinx92i/DTSD_LabWork2/Counter.vhd".
+    Related source file is "/home/ise/Desktop/DTSD_LabWork2/Counter.vhd".
     Found 8-bit up counter for signal <count>.
     Summary:
 	inferred   1 Counter(s).
@@ -378,12 +430,12 @@ Unit <Counter_3> synthesized.
 
 
 Synthesizing Unit <Comparator_3>.
-    Related source file is "C:/Xilinx92i/DTSD_LabWork2/Comparator.vhd".
+    Related source file is "/home/ise/Desktop/DTSD_LabWork2/Comparator.vhd".
 Unit <Comparator_3> synthesized.
 
 
 Synthesizing Unit <Counter_4>.
-    Related source file is "C:/Xilinx92i/DTSD_LabWork2/Counter.vhd".
+    Related source file is "/home/ise/Desktop/DTSD_LabWork2/Counter.vhd".
     Found 14-bit up counter for signal <count>.
     Summary:
 	inferred   1 Counter(s).
@@ -391,20 +443,25 @@ Unit <Counter_4> synthesized.
 
 
 Synthesizing Unit <Comparator_4>.
-    Related source file is "C:/Xilinx92i/DTSD_LabWork2/Comparator.vhd".
+    Related source file is "/home/ise/Desktop/DTSD_LabWork2/Comparator.vhd".
 Unit <Comparator_4> synthesized.
 
 
+Synthesizing Unit <Debouncing_Button_VHDL>.
+    Related source file is "/home/ise/Desktop/DTSD_LabWork2/ButtonDebouncer.vhd".
+Unit <Debouncing_Button_VHDL> synthesized.
+
+
 Synthesizing Unit <Controller_1>.
-    Related source file is "C:/Xilinx92i/DTSD_LabWork2/Controller.vhd".
+    Related source file is "/home/ise/Desktop/DTSD_LabWork2/Controller.vhd".
     Found finite state machine <FSM_0> for signal <current_state>.
     -----------------------------------------------------------------------
     | States             | 4                                              |
     | Transitions        | 7                                              |
     | Inputs             | 2                                              |
     | Outputs            | 4                                              |
-    | Clock              | CLK (rising_edge)                              |
-    | Reset              | reset (positive)                               |
+    | Clock              | CLK                       (rising_edge)        |
+    | Reset              | reset                     (positive)           |
     | Reset type         | synchronous                                    |
     | Reset State        | idle                                           |
     | Power Up State     | idle                                           |
@@ -417,17 +474,17 @@ Unit <Controller_1> synthesized.
 
 
 Synthesizing Unit <TestVectorGenerator>.
-    Related source file is "C:/Xilinx92i/DTSD_LabWork2/TestVectorGenerator.vhd".
+    Related source file is "/home/ise/Desktop/DTSD_LabWork2/TestVectorGenerator.vhd".
 Unit <TestVectorGenerator> synthesized.
 
 
 Synthesizing Unit <SignatureGenerator>.
-    Related source file is "C:/Xilinx92i/DTSD_LabWork2/SignatureGenerator.vhd".
+    Related source file is "/home/ise/Desktop/DTSD_LabWork2/SignatureGenerator.vhd".
 Unit <SignatureGenerator> synthesized.
 
 
 Synthesizing Unit <CompressionCounter_1>.
-    Related source file is "C:/Xilinx92i/DTSD_LabWork2/CompressionCounter.vhd".
+    Related source file is "/home/ise/Desktop/DTSD_LabWork2/CompressionCounter.vhd".
     Found 1-bit xor2 for signal <count_en$xor0000> created at line 75.
     Found 1-bit register for signal <previous_input>.
     Summary:
@@ -436,15 +493,15 @@ Unit <CompressionCounter_1> synthesized.
 
 
 Synthesizing Unit <Controller_2>.
-    Related source file is "C:/Xilinx92i/DTSD_LabWork2/Controller.vhd".
+    Related source file is "/home/ise/Desktop/DTSD_LabWork2/Controller.vhd".
     Found finite state machine <FSM_1> for signal <current_state>.
     -----------------------------------------------------------------------
     | States             | 4                                              |
     | Transitions        | 7                                              |
     | Inputs             | 2                                              |
     | Outputs            | 4                                              |
-    | Clock              | CLK (rising_edge)                              |
-    | Reset              | reset (positive)                               |
+    | Clock              | CLK                       (rising_edge)        |
+    | Reset              | reset                     (positive)           |
     | Reset type         | synchronous                                    |
     | Reset State        | idle                                           |
     | Power Up State     | idle                                           |
@@ -457,7 +514,7 @@ Unit <Controller_2> synthesized.
 
 
 Synthesizing Unit <CompressionCounter_2>.
-    Related source file is "C:/Xilinx92i/DTSD_LabWork2/CompressionCounter.vhd".
+    Related source file is "/home/ise/Desktop/DTSD_LabWork2/CompressionCounter.vhd".
     Found 1-bit xor2 for signal <count_en$xor0000> created at line 75.
     Found 1-bit register for signal <previous_input>.
     Summary:
@@ -466,15 +523,15 @@ Unit <CompressionCounter_2> synthesized.
 
 
 Synthesizing Unit <Controller_3>.
-    Related source file is "C:/Xilinx92i/DTSD_LabWork2/Controller.vhd".
+    Related source file is "/home/ise/Desktop/DTSD_LabWork2/Controller.vhd".
     Found finite state machine <FSM_2> for signal <current_state>.
     -----------------------------------------------------------------------
     | States             | 4                                              |
     | Transitions        | 7                                              |
     | Inputs             | 2                                              |
     | Outputs            | 4                                              |
-    | Clock              | CLK (rising_edge)                              |
-    | Reset              | reset (positive)                               |
+    | Clock              | CLK                       (rising_edge)        |
+    | Reset              | reset                     (positive)           |
     | Reset type         | synchronous                                    |
     | Reset State        | idle                                           |
     | Power Up State     | idle                                           |
@@ -487,7 +544,7 @@ Unit <Controller_3> synthesized.
 
 
 Synthesizing Unit <CompressionCounter_3>.
-    Related source file is "C:/Xilinx92i/DTSD_LabWork2/CompressionCounter.vhd".
+    Related source file is "/home/ise/Desktop/DTSD_LabWork2/CompressionCounter.vhd".
     Found 1-bit xor2 for signal <count_en$xor0000> created at line 75.
     Found 1-bit register for signal <previous_input>.
     Summary:
@@ -496,22 +553,24 @@ Unit <CompressionCounter_3> synthesized.
 
 
 Synthesizing Unit <TestEquipment_1>.
-    Related source file is "C:/Xilinx92i/DTSD_LabWork2/TestEquipment.vhd".
+    Related source file is "/home/ise/Desktop/DTSD_LabWork2/TestEquipment.vhd".
 Unit <TestEquipment_1> synthesized.
 
 
 Synthesizing Unit <TestEquipment_2>.
-    Related source file is "C:/Xilinx92i/DTSD_LabWork2/TestEquipment.vhd".
+    Related source file is "/home/ise/Desktop/DTSD_LabWork2/TestEquipment.vhd".
 Unit <TestEquipment_2> synthesized.
 
 
 Synthesizing Unit <TestEquipment_3>.
-    Related source file is "C:/Xilinx92i/DTSD_LabWork2/TestEquipment.vhd".
+    Related source file is "/home/ise/Desktop/DTSD_LabWork2/TestEquipment.vhd".
 Unit <TestEquipment_3> synthesized.
 
 
 Synthesizing Unit <FGPA_IMPLEMENT>.
-    Related source file is "C:/Xilinx92i/DTSD_LabWork2/FGPA_IMPLEMENT.vhd".
+    Related source file is "/home/ise/Desktop/DTSD_LabWork2/FGPA_IMPLEMENT.vhd".
+WARNING:Xst:646 - Signal <CLK_DIV<13>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <CLK_DIV<11:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
     Found 1-bit 4-to-1 multiplexer for signal <Done>.
     Found 1-bit 4-to-1 multiplexer for signal <PASS_nFAIL1>.
     Found 1-bit 4-to-1 multiplexer for signal <PASS_nFAIL2>.
@@ -525,14 +584,16 @@ Unit <FGPA_IMPLEMENT> synthesized.
 HDL Synthesis Report
 
 Macro Statistics
-# Counters                                             : 9
+# Counters                                             : 13
  14-bit up counter                                     : 1
  15-bit up counter                                     : 3
- 16-bit up counter                                     : 4
+ 16-bit up counter                                     : 5
+ 28-bit up counter                                     : 3
  8-bit up counter                                      : 1
-# Registers                                            : 69
- 1-bit register                                        : 69
-# Comparators                                          : 3
+# Registers                                            : 78
+ 1-bit register                                        : 78
+# Comparators                                          : 6
+ 28-bit comparator greatequal                          : 3
  7-bit comparator equal                                : 3
 # Multiplexers                                         : 4
  1-bit 4-to-1 multiplexer                              : 3
@@ -549,7 +610,7 @@ Macro Statistics
 =========================================================================
 
 Analyzing FSM <FSM_2> for best encoding.
-Optimizing FSM <TEST_GEN_ALL/CONTROLLER0/current_state> on signal <current_state[1:2]> with gray encoding.
+Optimizing FSM <TEST_GEN_ALL/CONTROLLER0/current_state/FSM> on signal <current_state[1:2]> with gray encoding.
 ---------------------------
  State         | Encoding
 ---------------------------
@@ -559,7 +620,7 @@ Optimizing FSM <TEST_GEN_ALL/CONTROLLER0/current_state> on signal <current_state
  testdone      | 10
 ---------------------------
 Analyzing FSM <FSM_1> for best encoding.
-Optimizing FSM <TEST_GEN_8192/CONTROLLER0/current_state> on signal <current_state[1:2]> with gray encoding.
+Optimizing FSM <TEST_GEN_8192/CONTROLLER0/current_state/FSM> on signal <current_state[1:2]> with gray encoding.
 ---------------------------
  State         | Encoding
 ---------------------------
@@ -569,7 +630,7 @@ Optimizing FSM <TEST_GEN_8192/CONTROLLER0/current_state> on signal <current_stat
  testdone      | 10
 ---------------------------
 Analyzing FSM <FSM_0> for best encoding.
-Optimizing FSM <TEST_GEN_128/CONTROLLER0/current_state> on signal <current_state[1:2]> with gray encoding.
+Optimizing FSM <TEST_GEN_128/CONTROLLER0/current_state/FSM> on signal <current_state[1:2]> with gray encoding.
 ---------------------------
  State         | Encoding
 ---------------------------
@@ -578,21 +639,28 @@ Optimizing FSM <TEST_GEN_128/CONTROLLER0/current_state> on signal <current_state
  testexecution | 11
  testdone      | 10
 ---------------------------
-Loading device for application Rf_Device from file '3s200.nph' in environment C:\Xilinx92i.
+WARNING:Xst:1290 - Hierarchical block <CNT0> is unconnected in block <TEST_GENERATOR0>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <CNT0> is unconnected in block <TEST_GENERATOR0>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <LFSR0> is unconnected in block <TEST_GENERATOR0>.
+   It will be removed from the design.
 
 =========================================================================
 Advanced HDL Synthesis Report
 
 Macro Statistics
 # FSMs                                                 : 3
-# Counters                                             : 9
+# Counters                                             : 13
  14-bit up counter                                     : 1
  15-bit up counter                                     : 3
- 16-bit up counter                                     : 4
+ 16-bit up counter                                     : 5
+ 28-bit up counter                                     : 3
  8-bit up counter                                      : 1
-# Registers                                            : 75
- Flip-Flops                                            : 75
-# Comparators                                          : 3
+# Registers                                            : 78
+ Flip-Flops                                            : 78
+# Comparators                                          : 6
+ 28-bit comparator greatequal                          : 3
  7-bit comparator equal                                : 3
 # Multiplexers                                         : 4
  1-bit 4-to-1 multiplexer                              : 3
@@ -607,6 +675,12 @@ Macro Statistics
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
+
+Optimizing unit <FGPA_IMPLEMENT> ...
+
+Optimizing unit <LFSR_1> ...
+
+Optimizing unit <LFSR_2> ...
 WARNING:Xst:2677 - Node <TEST_GEN_ALL/TEST_GENERATOR0/LFSR0/REG_0> of sequential type is unconnected in block <FGPA_IMPLEMENT>.
 WARNING:Xst:2677 - Node <TEST_GEN_ALL/TEST_GENERATOR0/LFSR0/REG_14> of sequential type is unconnected in block <FGPA_IMPLEMENT>.
 WARNING:Xst:2677 - Node <TEST_GEN_ALL/TEST_GENERATOR0/LFSR0/REG_13> of sequential type is unconnected in block <FGPA_IMPLEMENT>.
@@ -623,28 +697,31 @@ WARNING:Xst:2677 - Node <TEST_GEN_ALL/TEST_GENERATOR0/LFSR0/REG_3> of sequential
 WARNING:Xst:2677 - Node <TEST_GEN_ALL/TEST_GENERATOR0/LFSR0/REG_2> of sequential type is unconnected in block <FGPA_IMPLEMENT>.
 WARNING:Xst:2677 - Node <TEST_GEN_ALL/TEST_GENERATOR0/LFSR0/REG_1> of sequential type is unconnected in block <FGPA_IMPLEMENT>.
 
-Optimizing unit <FGPA_IMPLEMENT> ...
-
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block FGPA_IMPLEMENT, actual ratio is 5.
-FlipFlop TEST_GEN_128/CONTROLLER0/current_state_FFd2 has been replicated 2 time(s)
-FlipFlop TEST_GEN_8192/CONTROLLER0/current_state_FFd2 has been replicated 3 time(s)
-FlipFlop TEST_GEN_ALL/CONTROLLER0/current_state_FFd2 has been replicated 3 time(s)
+Found area constraint ratio of 100 (+ 5) on block FGPA_IMPLEMENT, actual ratio is 10.
 
 Final Macro Processing ...
+
+Processing Unit <FGPA_IMPLEMENT> :
+	Found 2-bit shift register for signal <BUTTON2/Debouncing_FF1/Q>.
+	Found 2-bit shift register for signal <BUTTON1/Debouncing_FF1/Q>.
+	Found 2-bit shift register for signal <BUTTON0/Debouncing_FF1/Q>.
+Unit <FGPA_IMPLEMENT> processed.
 
 =========================================================================
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 169
- Flip-Flops                                            : 169
+# Registers                                            : 264
+ Flip-Flops                                            : 264
+# Shift Registers                                      : 3
+ 2-bit shift register                                  : 3
 
 =========================================================================
 
 =========================================================================
-*                          Partition Report                             *
+*                           Partition Report                            *
 =========================================================================
 
 Partition Implementation Status
@@ -662,34 +739,38 @@ RTL Top Level Output File Name     : FGPA_IMPLEMENT.ngr
 Top Level Output File Name         : FGPA_IMPLEMENT
 Output Format                      : NGC
 Optimization Goal                  : Speed
-Keep Hierarchy                     : NO
+Keep Hierarchy                     : No
 
 Design Statistics
-# IOs                              : 26
+# IOs                              : 27
 
 Cell Usage :
-# BELS                             : 407
+# BELS                             : 814
 #      GND                         : 1
-#      INV                         : 7
-#      LUT1                        : 94
-#      LUT2                        : 19
-#      LUT3                        : 14
-#      LUT4                        : 63
-#      LUT4_L                      : 3
-#      MUXCY                       : 94
-#      MUXF5                       : 17
+#      INV                         : 14
+#      LUT1                        : 196
+#      LUT2                        : 14
+#      LUT3                        : 21
+#      LUT3_L                      : 1
+#      LUT4                        : 102
+#      LUT4_L                      : 4
+#      MUXCY                       : 241
+#      MUXF5                       : 18
 #      VCC                         : 1
-#      XORCY                       : 94
-# FlipFlops/Latches                : 169
-#      FDR                         : 3
-#      FDRE                        : 147
-#      FDRS                        : 11
-#      FDRSE                       : 3
+#      XORCY                       : 201
+# FlipFlops/Latches                : 267
+#      FDE                         : 6
+#      FDR                         : 87
+#      FDRE                        : 163
+#      FDRS                        : 6
 #      FDSE                        : 5
-# Clock Buffers                    : 1
+# Shift Registers                  : 3
+#      SRL16E                      : 3
+# Clock Buffers                    : 4
+#      BUFG                        : 3
 #      BUFGP                       : 1
-# IO Buffers                       : 25
-#      IBUF                        : 5
+# IO Buffers                       : 26
+#      IBUF                        : 6
 #      OBUF                        : 20
 =========================================================================
 
@@ -698,12 +779,14 @@ Device utilization summary:
 
 Selected Device : 3s200ft256-5 
 
- Number of Slices:                     108  out of   1920     5%  
- Number of Slice Flip Flops:           169  out of   3840     4%  
- Number of 4 input LUTs:               200  out of   3840     5%  
- Number of IOs:                         26
- Number of bonded IOBs:                 26  out of    173    15%  
- Number of GCLKs:                        1  out of      8    12%  
+ Number of Slices:                      189  out of   1920     9%  
+ Number of Slice Flip Flops:            267  out of   3840     6%  
+ Number of 4 input LUTs:                355  out of   3840     9%  
+    Number used as logic:               352
+    Number used as Shift registers:       3
+ Number of IOs:                          27
+ Number of bonded IOBs:                  27  out of    173    15%  
+ Number of GCLKs:                         4  out of      8    50%  
 
 ---------------------------
 Partition Resource Summary:
@@ -726,7 +809,10 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-CLK                                | BUFGP                  | 169   |
+CLK                                | BUFGP                  | 109   |
+CLOCK_DIV/count_151                | BUFG                   | 49    |
+CLOCK_DIV/count_141                | BUFG                   | 55    |
+CLOCK_DIV/count_121                | BUFG                   | 57    |
 -----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
@@ -737,10 +823,10 @@ Timing Summary:
 ---------------
 Speed Grade: -5
 
-   Minimum period: 4.380ns (Maximum Frequency: 228.334MHz)
+   Minimum period: 5.743ns (Maximum Frequency: 174.122MHz)
    Minimum input arrival time before clock: 4.020ns
-   Maximum output required time after clock: 13.158ns
-   Maximum combinational path delay: 12.845ns
+   Maximum output required time after clock: 10.409ns
+   Maximum combinational path delay: 11.478ns
 
 Timing Detail:
 --------------
@@ -748,34 +834,150 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'CLK'
-  Clock period: 4.380ns (frequency: 228.334MHz)
-  Total number of paths / destination ports: 1621 / 484
+  Clock period: 5.743ns (frequency: 174.122MHz)
+  Total number of paths / destination ports: 3996 / 215
 -------------------------------------------------------------------------
-Delay:               4.380ns (Levels of Logic = 1)
-  Source:            TEST_GEN_8192/CONTROLLER0/current_state_FFd1 (FF)
-  Destination:       TEST_GEN_8192/SIGN_GENERATOR0/LFSR0/REG_6 (FF)
+Delay:               5.743ns (Levels of Logic = 11)
+  Source:            BUTTON2/clock_enable_generator/counter_0 (FF)
+  Destination:       BUTTON2/clock_enable_generator/counter_0 (FF)
   Source Clock:      CLK rising
   Destination Clock: CLK rising
 
-  Data Path: TEST_GEN_8192/CONTROLLER0/current_state_FFd1 to TEST_GEN_8192/SIGN_GENERATOR0/LFSR0/REG_6
+  Data Path: BUTTON2/clock_enable_generator/counter_0 to BUTTON2/clock_enable_generator/counter_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDRSE:C->Q            6   0.626   1.023  TEST_GEN_8192/CONTROLLER0/current_state_FFd1 (TEST_GEN_8192/CONTROLLER0/current_state_FFd1)
-     LUT2:I1->O           22   0.479   1.360  TEST_GEN_8192/CONTROLLER0/current_state_Out11_1 (TEST_GEN_8192/CONTROLLER0/current_state_Out11)
-     FDRE:R                    0.892          TEST_GEN_8192/CONTROLLER0/StateCounter/count_0
+     FDR:C->Q              3   0.626   1.066  BUTTON2/clock_enable_generator/counter_0 (BUTTON2/clock_enable_generator/counter_0)
+     LUT4:I0->O            1   0.479   0.000  BUTTON2/clock_enable_generator/Mcompar_counter_cmp_ge0000_lut<0> (BUTTON2/clock_enable_generator/Mcompar_counter_cmp_ge0000_lut<0>)
+     MUXCY:S->O            1   0.435   0.000  BUTTON2/clock_enable_generator/Mcompar_counter_cmp_ge0000_cy<0> (BUTTON2/clock_enable_generator/Mcompar_counter_cmp_ge0000_cy<0>)
+     MUXCY:CI->O           1   0.056   0.000  BUTTON2/clock_enable_generator/Mcompar_counter_cmp_ge0000_cy<1> (BUTTON2/clock_enable_generator/Mcompar_counter_cmp_ge0000_cy<1>)
+     MUXCY:CI->O           1   0.056   0.000  BUTTON2/clock_enable_generator/Mcompar_counter_cmp_ge0000_cy<2> (BUTTON2/clock_enable_generator/Mcompar_counter_cmp_ge0000_cy<2>)
+     MUXCY:CI->O           1   0.056   0.000  BUTTON2/clock_enable_generator/Mcompar_counter_cmp_ge0000_cy<3> (BUTTON2/clock_enable_generator/Mcompar_counter_cmp_ge0000_cy<3>)
+     MUXCY:CI->O           1   0.056   0.000  BUTTON2/clock_enable_generator/Mcompar_counter_cmp_ge0000_cy<4> (BUTTON2/clock_enable_generator/Mcompar_counter_cmp_ge0000_cy<4>)
+     MUXCY:CI->O           1   0.056   0.000  BUTTON2/clock_enable_generator/Mcompar_counter_cmp_ge0000_cy<5> (BUTTON2/clock_enable_generator/Mcompar_counter_cmp_ge0000_cy<5>)
+     MUXCY:CI->O           1   0.056   0.000  BUTTON2/clock_enable_generator/Mcompar_counter_cmp_ge0000_cy<6> (BUTTON2/clock_enable_generator/Mcompar_counter_cmp_ge0000_cy<6>)
+     MUXCY:CI->O           1   0.056   0.000  BUTTON2/clock_enable_generator/Mcompar_counter_cmp_ge0000_cy<7> (BUTTON2/clock_enable_generator/Mcompar_counter_cmp_ge0000_cy<7>)
+     MUXCY:CI->O           1   0.056   0.000  BUTTON2/clock_enable_generator/Mcompar_counter_cmp_ge0000_cy<8> (BUTTON2/clock_enable_generator/Mcompar_counter_cmp_ge0000_cy<8>)
+     MUXCY:CI->O          28   0.246   1.556  BUTTON2/clock_enable_generator/Mcompar_counter_cmp_ge0000_cy<9> (BUTTON2/clock_enable_generator/counter_cmp_ge0000)
+     FDR:R                     0.892          BUTTON2/clock_enable_generator/counter_0
     ----------------------------------------
-    Total                      4.380ns (1.997ns logic, 2.383ns route)
-                                       (45.6% logic, 54.4% route)
+    Total                      5.743ns (3.122ns logic, 2.622ns route)
+                                       (54.4% logic, 45.6% route)
 
 =========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
-  Total number of paths / destination ports: 72 / 72
+Timing constraint: Default period analysis for Clock 'CLOCK_DIV/count_151'
+  Clock period: 5.156ns (frequency: 193.962MHz)
+  Total number of paths / destination ports: 381 / 143
+-------------------------------------------------------------------------
+Delay:               5.156ns (Levels of Logic = 1)
+  Source:            TEST_GEN_128/CONTROLLER0/current_state_FSM_FFd2 (FF)
+  Destination:       TEST_GEN_128/COMP_COUNTER0/previous_input (FF)
+  Source Clock:      CLOCK_DIV/count_151 rising
+  Destination Clock: CLOCK_DIV/count_151 rising
+
+  Data Path: TEST_GEN_128/CONTROLLER0/current_state_FSM_FFd2 to TEST_GEN_128/COMP_COUNTER0/previous_input
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRS:C->Q            30   0.626   1.588  TEST_GEN_128/CONTROLLER0/current_state_FSM_FFd2 (TEST_GEN_128/CONTROLLER0/current_state_FSM_FFd2)
+     LUT4:I3->O           31   0.479   1.570  TEST_GEN_128/CONTROLLER0/init1 (TEST_GEN_128/init)
+     FDR:R                     0.892          TEST_GEN_128/COMP_COUNTER0/previous_input
+    ----------------------------------------
+    Total                      5.156ns (1.997ns logic, 3.159ns route)
+                                       (38.7% logic, 61.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLOCK_DIV/count_141'
+  Clock period: 5.185ns (frequency: 192.869MHz)
+  Total number of paths / destination ports: 474 / 161
+-------------------------------------------------------------------------
+Delay:               5.185ns (Levels of Logic = 1)
+  Source:            TEST_GEN_8192/CONTROLLER0/current_state_FSM_FFd2 (FF)
+  Destination:       TEST_GEN_8192/COMP_COUNTER0/previous_input (FF)
+  Source Clock:      CLOCK_DIV/count_141 rising
+  Destination Clock: CLOCK_DIV/count_141 rising
+
+  Data Path: TEST_GEN_8192/CONTROLLER0/current_state_FSM_FFd2 to TEST_GEN_8192/COMP_COUNTER0/previous_input
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRS:C->Q            30   0.626   1.588  TEST_GEN_8192/CONTROLLER0/current_state_FSM_FFd2 (TEST_GEN_8192/CONTROLLER0/current_state_FSM_FFd2)
+     LUT4:I3->O           37   0.479   1.599  TEST_GEN_8192/CONTROLLER0/init1 (TEST_GEN_8192/init)
+     FDR:R                     0.892          TEST_GEN_8192/COMP_COUNTER0/previous_input
+    ----------------------------------------
+    Total                      5.185ns (1.997ns logic, 3.188ns route)
+                                       (38.5% logic, 61.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLOCK_DIV/count_121'
+  Clock period: 5.195ns (frequency: 192.507MHz)
+  Total number of paths / destination ports: 617 / 167
+-------------------------------------------------------------------------
+Delay:               5.195ns (Levels of Logic = 1)
+  Source:            TEST_GEN_ALL/CONTROLLER0/current_state_FSM_FFd2 (FF)
+  Destination:       TEST_GEN_ALL/COMP_COUNTER0/previous_input (FF)
+  Source Clock:      CLOCK_DIV/count_121 rising
+  Destination Clock: CLOCK_DIV/count_121 rising
+
+  Data Path: TEST_GEN_ALL/CONTROLLER0/current_state_FSM_FFd2 to TEST_GEN_ALL/COMP_COUNTER0/previous_input
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRS:C->Q            30   0.626   1.588  TEST_GEN_ALL/CONTROLLER0/current_state_FSM_FFd2 (TEST_GEN_ALL/CONTROLLER0/current_state_FSM_FFd2)
+     LUT4:I3->O           39   0.479   1.609  TEST_GEN_ALL/CONTROLLER0/init1 (TEST_GEN_ALL/init)
+     FDR:R                     0.892          TEST_GEN_ALL/COMP_COUNTER0/previous_input
+    ----------------------------------------
+    Total                      5.195ns (1.997ns logic, 3.198ns route)
+                                       (38.4% logic, 61.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLOCK_DIV/count_151'
+  Total number of paths / destination ports: 10 / 10
+-------------------------------------------------------------------------
+Offset:              3.889ns (Levels of Logic = 2)
+  Source:            uut_output (PAD)
+  Destination:       TEST_GEN_128/COMP_COUNTER0/C1/count_0 (FF)
+  Destination Clock: CLOCK_DIV/count_151 rising
+
+  Data Path: uut_output to TEST_GEN_128/COMP_COUNTER0/C1/count_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             9   0.715   1.250  uut_output_IBUF (uut_output_IBUF)
+     LUT3:I0->O            8   0.479   0.921  TEST_GEN_128/COMP_COUNTER0/C1_not0000_inv1 (TEST_GEN_128/COMP_COUNTER0/C1_not0000_inv)
+     FDRE:CE                   0.524          TEST_GEN_128/COMP_COUNTER0/C1/count_0
+    ----------------------------------------
+    Total                      3.889ns (1.718ns logic, 2.171ns route)
+                                       (44.2% logic, 55.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLOCK_DIV/count_141'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              3.977ns (Levels of Logic = 2)
+  Source:            uut_output (PAD)
+  Destination:       TEST_GEN_8192/COMP_COUNTER0/C1/count_0 (FF)
+  Destination Clock: CLOCK_DIV/count_141 rising
+
+  Data Path: uut_output to TEST_GEN_8192/COMP_COUNTER0/C1/count_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             9   0.715   1.250  uut_output_IBUF (uut_output_IBUF)
+     LUT3:I0->O           14   0.479   1.009  TEST_GEN_8192/COMP_COUNTER0/C1_not0000_inv1 (TEST_GEN_8192/COMP_COUNTER0/C1_not0000_inv)
+     FDRE:CE                   0.524          TEST_GEN_8192/COMP_COUNTER0/C1/count_0
+    ----------------------------------------
+    Total                      3.977ns (1.718ns logic, 2.259ns route)
+                                       (43.2% logic, 56.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLOCK_DIV/count_121'
+  Total number of paths / destination ports: 18 / 18
 -------------------------------------------------------------------------
 Offset:              4.020ns (Levels of Logic = 2)
   Source:            uut_output (PAD)
   Destination:       TEST_GEN_ALL/COMP_COUNTER0/C1/count_0 (FF)
-  Destination Clock: CLK rising
+  Destination Clock: CLOCK_DIV/count_121 rising
 
   Data Path: uut_output to TEST_GEN_ALL/COMP_COUNTER0/C1/count_0
                                 Gate     Net
@@ -789,59 +991,123 @@ Offset:              4.020ns (Levels of Logic = 2)
                                        (42.7% logic, 57.3% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
-  Total number of paths / destination ports: 140 / 18
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 3 / 3
 -------------------------------------------------------------------------
-Offset:              13.158ns (Levels of Logic = 6)
-  Source:            TEST_GEN_8192/COMP_COUNTER0/C1/count_8 (FF)
-  Destination:       PASS_nFAIL2 (PAD)
-  Source Clock:      CLK rising
+Offset:              1.778ns (Levels of Logic = 1)
+  Source:            reset (PAD)
+  Destination:       BUTTON0/Debouncing_FF1/Mshreg_Q (FF)
+  Destination Clock: CLK rising
 
-  Data Path: TEST_GEN_8192/COMP_COUNTER0/C1/count_8 to PASS_nFAIL2
+  Data Path: reset to BUTTON0/Debouncing_FF1/Mshreg_Q
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDRE:C->Q             2   0.626   1.040  TEST_GEN_8192/COMP_COUNTER0/C1/count_8 (TEST_GEN_8192/COMP_COUNTER0/C1/count_8)
-     LUT4:I0->O            1   0.479   0.976  Mmux_PASS_nFAIL21146 (Mmux_PASS_nFAIL21_map51)
-     LUT3:I0->O            1   0.479   0.704  Mmux_PASS_nFAIL21215_SW0_SW0 (N521)
-     LUT4:I3->O            1   0.479   0.851  Mmux_PASS_nFAIL21215_SW0 (N517)
-     LUT4:I1->O            1   0.479   0.976  Mmux_PASS_nFAIL21215 (Mmux_PASS_nFAIL21_map67)
-     LUT4:I0->O            1   0.479   0.681  Mmux_PASS_nFAIL21231 (PASS_nFAIL2_OBUF)
+     IBUF:I->O             1   0.715   0.681  reset_IBUF (reset_IBUF)
+     SRL16E:D                  0.382          BUTTON0/Debouncing_FF1/Mshreg_Q
+    ----------------------------------------
+    Total                      1.778ns (1.097ns logic, 0.681ns route)
+                                       (61.7% logic, 38.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLOCK_DIV/count_151'
+  Total number of paths / destination ports: 47 / 18
+-------------------------------------------------------------------------
+Offset:              10.409ns (Levels of Logic = 4)
+  Source:            TEST_GEN_128/COMP_COUNTER0/C1/count_4 (FF)
+  Destination:       PASS_nFAIL2 (PAD)
+  Source Clock:      CLOCK_DIV/count_151 rising
+
+  Data Path: TEST_GEN_128/COMP_COUNTER0/C1/count_4 to PASS_nFAIL2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             2   0.626   1.040  TEST_GEN_128/COMP_COUNTER0/C1/count_4 (TEST_GEN_128/COMP_COUNTER0/C1/count_4)
+     LUT4:I0->O            1   0.479   0.740  Mmux_PASS_nFAIL2226 (Mmux_PASS_nFAIL2226)
+     LUT4:I2->O            1   0.479   0.976  Mmux_PASS_nFAIL2229 (Mmux_PASS_nFAIL2229)
+     LUT4:I0->O            1   0.479   0.681  Mmux_PASS_nFAIL22220 (PASS_nFAIL2_OBUF)
      OBUF:I->O                 4.909          PASS_nFAIL2_OBUF (PASS_nFAIL2)
     ----------------------------------------
-    Total                     13.158ns (7.930ns logic, 5.228ns route)
-                                       (60.3% logic, 39.7% route)
+    Total                     10.409ns (6.972ns logic, 3.437ns route)
+                                       (67.0% logic, 33.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLOCK_DIV/count_141'
+  Total number of paths / destination ports: 55 / 18
+-------------------------------------------------------------------------
+Offset:              10.395ns (Levels of Logic = 4)
+  Source:            TEST_GEN_8192/COMP_COUNTER0/C1/count_2 (FF)
+  Destination:       PASS_nFAIL2 (PAD)
+  Source Clock:      CLOCK_DIV/count_141 rising
+
+  Data Path: TEST_GEN_8192/COMP_COUNTER0/C1/count_2 to PASS_nFAIL2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             2   0.626   1.040  TEST_GEN_8192/COMP_COUNTER0/C1/count_2 (TEST_GEN_8192/COMP_COUNTER0/C1/count_2)
+     LUT4:I0->O            1   0.479   0.851  Mmux_PASS_nFAIL2253 (Mmux_PASS_nFAIL2253)
+     LUT4:I1->O            1   0.479   0.851  Mmux_PASS_nFAIL2299 (Mmux_PASS_nFAIL2299)
+     LUT4:I1->O            1   0.479   0.681  Mmux_PASS_nFAIL22220 (PASS_nFAIL2_OBUF)
+     OBUF:I->O                 4.909          PASS_nFAIL2_OBUF (PASS_nFAIL2)
+    ----------------------------------------
+    Total                     10.395ns (6.972ns logic, 3.423ns route)
+                                       (67.1% logic, 32.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLOCK_DIV/count_121'
+  Total number of paths / destination ports: 42 / 18
+-------------------------------------------------------------------------
+Offset:              10.409ns (Levels of Logic = 4)
+  Source:            TEST_GEN_ALL/SIGN_GENERATOR0/LFSR0/REG_4 (FF)
+  Destination:       PASS_nFAIL1 (PAD)
+  Source Clock:      CLOCK_DIV/count_121 rising
+
+  Data Path: TEST_GEN_ALL/SIGN_GENERATOR0/LFSR0/REG_4 to PASS_nFAIL1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             2   0.626   1.040  TEST_GEN_ALL/SIGN_GENERATOR0/LFSR0/REG_4 (TEST_GEN_ALL/SIGN_GENERATOR0/LFSR0/REG_4)
+     LUT3:I0->O            1   0.479   0.740  Mmux_PASS_nFAIL1245_SW0 (N40)
+     LUT4:I2->O            1   0.479   0.976  Mmux_PASS_nFAIL1245 (Mmux_PASS_nFAIL1245)
+     LUT4:I0->O            1   0.479   0.681  Mmux_PASS_nFAIL1298 (PASS_nFAIL1_OBUF)
+     OBUF:I->O                 4.909          PASS_nFAIL1_OBUF (PASS_nFAIL1)
+    ----------------------------------------
+    Total                     10.409ns (6.972ns logic, 3.437ns route)
+                                       (67.0% logic, 33.0% route)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 79 / 20
+  Total number of paths / destination ports: 82 / 20
 -------------------------------------------------------------------------
-Delay:               12.845ns (Levels of Logic = 6)
+Delay:               11.478ns (Levels of Logic = 5)
   Source:            SEL_TEST<1> (PAD)
-  Destination:       PASS_nFAIL1 (PAD)
+  Destination:       PASS_nFAIL2 (PAD)
 
-  Data Path: SEL_TEST<1> to PASS_nFAIL1
+  Data Path: SEL_TEST<1> to PASS_nFAIL2
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            39   0.715   1.904  SEL_TEST_1_IBUF (SEL_TEST_OUT_1_OBUF)
-     LUT2:I0->O            2   0.479   0.768  Mmux_Done121 (N1)
-     LUT4:I3->O            1   0.479   0.976  Mmux_PASS_nFAIL1160 (Mmux_PASS_nFAIL11_map22)
-     LUT4:I0->O            1   0.479   0.976  Mmux_PASS_nFAIL1183 (Mmux_PASS_nFAIL11_map30)
-     LUT3:I0->O            1   0.479   0.681  Mmux_PASS_nFAIL1195 (PASS_nFAIL1_OBUF)
-     OBUF:I->O                 4.909          PASS_nFAIL1_OBUF (PASS_nFAIL1)
+     IBUF:I->O            40   0.715   1.909  SEL_TEST_1_IBUF (SEL_TEST_OUT_1_OBUF)
+     LUT4:I0->O            1   0.479   0.976  Mmux_PASS_nFAIL2245 (Mmux_PASS_nFAIL2245)
+     LUT4:I0->O            1   0.479   0.851  Mmux_PASS_nFAIL2299 (Mmux_PASS_nFAIL2299)
+     LUT4:I1->O            1   0.479   0.681  Mmux_PASS_nFAIL22220 (PASS_nFAIL2_OBUF)
+     OBUF:I->O                 4.909          PASS_nFAIL2_OBUF (PASS_nFAIL2)
     ----------------------------------------
-    Total                     12.845ns (7.540ns logic, 5.305ns route)
-                                       (58.7% logic, 41.3% route)
+    Total                     11.478ns (7.061ns logic, 4.417ns route)
+                                       (61.5% logic, 38.5% route)
 
 =========================================================================
-CPU : 3.11 / 3.19 s | Elapsed : 3.00 / 3.00 s
+
+
+Total REAL time to Xst completion: 14.00 secs
+Total CPU time to Xst completion: 12.72 secs
  
 --> 
 
-Total memory usage is 206380 kilobytes
+
+Total memory usage is 527420 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   15 (   0 filtered)
+Number of warnings :   20 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

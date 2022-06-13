@@ -30,6 +30,7 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 entity FGPA_IMPLEMENT is
     Port ( Start : in  STD_LOGIC;
 			  reset : in STD_LOGIC;
+			  reset_clk : in STD_LOGIC;
 			  SEL_TEST: in STD_LOGIC_VECTOR(1 downto 0);
 			  SEL_TEST_OUT : out STD_LOGIC_VECTOR(1 downto 0);
 			  CLK : in STD_LOGIC;
@@ -73,6 +74,21 @@ architecture Behavioral of FGPA_IMPLEMENT is
 	constant GOOD_SIGNATURE_ALL : integer := 16#0054#;
 	constant GOOD_COUNT_ALL : integer := 16#0220#;
 	
+	component Debouncing_Button_VHDL is
+		port(
+		 button: in std_logic;
+		 clk: in std_logic;
+		 debounced_button: out std_logic
+		);
+	end component;
+		
+	component Counter is
+		generic(N : integer := 15);
+		 Port ( init : in  STD_LOGIC;
+				  stop_nEN : in  STD_LOGIC;
+				  CLK : in  STD_LOGIC;
+				  Q : out  STD_LOGIC_VECTOR (N-1 downto 0));
+	end component;
 	
 	component TestEquipment is
 		 Generic (UUT_INP_N : integer := 15;
@@ -109,7 +125,36 @@ architecture Behavioral of FGPA_IMPLEMENT is
 	SIGNAL PASS_nFAIL2_ALL :  std_logic;
 	SIGNAL uut_input_ALL :  std_logic_vector(14 downto 0);
 
+	SIGNAL CLK_DIV :  std_logic_vector(15 downto 0);
+	
+	SIGNAL Reset_stable :  std_logic;
+	SIGNAL Start_stable :  std_logic;
+	SIGNAL Reset_clk_stable :  std_logic;
 begin
+	
+	BUTTON0: Debouncing_Button_VHDL PORT MAP (
+          button => reset,
+          clk => CLK,
+          debounced_button => Reset_stable
+        );
+		  
+	BUTTON1: Debouncing_Button_VHDL PORT MAP (
+          button => start,
+          clk => CLK,
+          debounced_button => Start_stable
+        );
+		  
+	BUTTON2: Debouncing_Button_VHDL PORT MAP (
+          button => Reset_clk,
+          clk => CLK,
+          debounced_button => Reset_clk_stable
+        );
+		
+	CLOCK_DIV: Counter generic map(N => 16)
+	port map(init => Reset_clk_stable,
+				stop_nEN => '0',
+				CLK => CLK,
+				Q => CLK_DIV(15 downto 0));
 
 	SEL_TEST_OUT <= SEL_TEST;
 
@@ -121,9 +166,9 @@ begin
 				COUNT_LENGTH => COUNT_LENGTH_128,
 				GOOD_COUNT => GOOD_COUNT_128)
 	PORT MAP(
-		Start => Start,
-		reset => reset,
-		CLK => CLK,
+		Start => Start_stable,
+		reset => Reset_stable,
+		CLK => CLK_DIV(15),
 		Done => Done_128,
 		PASS_nFAIL1 => PASS_nFAIL1_128,
 		PASS_nFAIL2 => PASS_nFAIL2_128,
@@ -139,9 +184,9 @@ begin
 					COUNT_LENGTH => COUNT_LENGTH_8192,
 					GOOD_COUNT => GOOD_COUNT_8192)
 	PORT MAP(
-		Start => Start,
-		reset => reset,
-		CLK => CLK,
+		Start => Start_stable,
+		reset => Reset_stable,
+		CLK => CLK_DIV(14),
 		Done => Done_8192,
 		PASS_nFAIL1 => PASS_nFAIL1_8192,
 		PASS_nFAIL2 => PASS_nFAIL2_8192,
@@ -157,9 +202,9 @@ begin
 					COUNT_LENGTH => COUNT_LENGTH_ALL,
 					GOOD_COUNT => GOOD_COUNT_ALL)
 	PORT MAP(
-		Start => Start,
-		reset => reset,
-		CLK => CLK,
+		Start => Start_stable,
+		reset => Reset_stable,
+		CLK => CLK_DIV(12),
 		Done => Done_ALL,
 		PASS_nFAIL1 => PASS_nFAIL1_ALL,
 		PASS_nFAIL2 => PASS_nFAIL2_ALL,

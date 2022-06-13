@@ -1,26 +1,19 @@
-Release 9.2i ngdbuild J.36
-Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+Release 14.7 ngdbuild P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Command Line: C:\Xilinx92i\bin\nt\ngdbuild.exe -ise
-C:/Xilinx92i/DTSD_LabWork2/DTSD_LabWork2.ise -intstyle ise -dd _ngo -nt
-timestamp -uc FGPA_IMPLEMENT.ucf -p xc3s200-ft256-5 FGPA_IMPLEMENT.ngc
-FGPA_IMPLEMENT.ngd
+Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
+ise -dd _ngo -nt timestamp -uc FGPA_IMPLEMENT.ucf -p xc3s200-ft256-5
+FGPA_IMPLEMENT.ngc FGPA_IMPLEMENT.ngd
 
-Reading NGO file "C:/Xilinx92i/DTSD_LabWork2/FGPA_IMPLEMENT.ngc" ...
+Reading NGO file "/home/ise/Desktop/DTSD_LabWork2/FGPA_IMPLEMENT.ngc" ...
+Gathering constraint information from source properties...
+Done.
 
-Applying constraints in "FGPA_IMPLEMENT.ucf" to the design...
-INFO:NgdBuild:738 - A case sensitive search for the INST, PAD, or NET element
-   referred to by a constraint entry in 'FGPA_IMPLEMENT.ucf' that accompanies
-   this design has failed, while a case insensitive search is in progress. The
-   result of the case insensitive search will be used, but messages will
-   accompany each and every use of a case insensitive result. Constraints are
-   case sensitive with respect to user-specified identifiers, which includes
-   names of logic elements in a design.
-INFO:NgdBuild:740 - "FGPA_IMPLEMENT.ucf" Line 8: Found case insensitive match
-   for NET name 'Reset'. NET is 'reset'.
+Annotating constraints to design from ucf file "FGPA_IMPLEMENT.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
 
-Checking timing specifications ...
-Checking Partitions ...
 Checking expanded design ...
 
 Partition Implementation Status
@@ -34,8 +27,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 103468 kilobytes
+Total memory usage is 391476 kilobytes
 
 Writing NGD file "FGPA_IMPLEMENT.ngd" ...
+Total REAL time to NGDBUILD completion:  7 sec
+Total CPU time to NGDBUILD completion:   6 sec
 
 Writing NGDBUILD log file "FGPA_IMPLEMENT.bld"...

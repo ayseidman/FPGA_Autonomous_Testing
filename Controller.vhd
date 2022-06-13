@@ -136,6 +136,6 @@ end process;
 
 LFSRnCounter <= '0' when 2 ** UUT_INP_N = N else '1';
 
- init <= init_temp;
+ init <= init_temp or reset;
 end Behavioral;
 

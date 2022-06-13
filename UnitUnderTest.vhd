@@ -34,6 +34,14 @@ end UnitUnderTest;
 
 architecture Behavioral of UnitUnderTest is
 
+component Counter is
+	generic(N : integer := 15);
+    Port ( init : in  STD_LOGIC;
+           stop_nEN : in  STD_LOGIC;
+           CLK : in  STD_LOGIC;
+           Q : out  STD_LOGIC_VECTOR (N-1 downto 0));
+end component;
+
 component MUX_74HC153N is
     Port ( A : in  STD_LOGIC;
            B : in  STD_LOGIC;

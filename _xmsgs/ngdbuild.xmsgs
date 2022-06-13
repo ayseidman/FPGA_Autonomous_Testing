@@ -5,11 +5,5 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="info" file="NgdBuild" num="738" delta="unknown" >A case sensitive search for the INST, PAD, or NET element referred to by a constraint entry in &apos;<arg fmt="%s" index="1">FGPA_IMPLEMENT.ucf</arg>&apos; that accompanies this design has failed, while a case insensitive search is in progress. The result of the case insensitive search will be used, but messages will accompany each and every use of a case insensitive result. Constraints are case sensitive with respect to user-specified identifiers, which includes names of logic elements in a design.
-</msg>
-
-<msg type="info" file="NgdBuild" num="740" delta="unknown" >&quot;<arg fmt="%s" index="2">FGPA_IMPLEMENT.ucf</arg>&quot; Line <arg fmt="%i" index="1">8</arg>: Found case insensitive match for NET name &apos;<arg fmt="%s" index="3">Reset</arg>&apos;. NET is &apos;<arg fmt="%s" index="4">reset</arg>&apos;.
-</msg>
-
 </messages>
 

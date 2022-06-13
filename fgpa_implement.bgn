@@ -1,15 +1,20 @@
-Release 9.2i - Bitgen J.36
-Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+Release 14.7 - Bitgen P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 Loading device for application Rf_Device from file '3s200.nph' in environment
-C:\Xilinx92i.
-   "FGPA_IMPLEMENT" is an NCD, version 3.1, device xc3s200, package ft256, speed
+/opt/Xilinx/14.7/ISE_DS/ISE/.
+   "FGPA_IMPLEMENT" is an NCD, version 3.2, device xc3s200, package ft256, speed
 -5
 Opened constraints file FGPA_IMPLEMENT.pcf.
 
-Sat Jun 11 00:03:12 2022
+Mon Jun 13 15:00:19 2022
 
-C:\Xilinx92i\bin\nt\bitgen.exe -intstyle ise -w -g DebugBitstream:No -g Binary:no -g CRC:Enable -g ConfigRate:6 -g CclkPin:PullUp -g M0Pin:PullUp -g M1Pin:PullUp -g M2Pin:PullUp -g ProgPin:PullUp -g DonePin:PullUp -g TckPin:PullUp -g TdiPin:PullUp -g TdoPin:PullUp -g TmsPin:PullUp -g UnusedPin:PullDown -g UserID:0xFFFFFFFF -g DCMShutdown:Disable -g DCIUpdateMode:AsRequired -g StartUpClk:CClk -g DONE_cycle:4 -g GTS_cycle:5 -g GWE_cycle:6 -g LCK_cycle:NoWait -g Match_cycle:Auto -g Security:None -g DonePipe:No -g DriveDone:No FGPA_IMPLEMENT.ncd 
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/bitgen -intstyle ise -w -g DebugBitstream:No -g Binary:no -g CRC:Enable -g ConfigRate:6 -g CclkPin:PullUp -g M0Pin:PullUp -g M1Pin:PullUp -g M2Pin:PullUp -g ProgPin:PullUp -g DonePin:PullUp -g HswapenPin:PullUp -g TckPin:PullUp -g TdiPin:PullUp -g TdoPin:PullUp -g TmsPin:PullUp -g UnusedPin:PullDown -g UserID:0xFFFFFFFF -g DCMShutdown:Disable -g DCIUpdateMode:AsRequired -g StartUpClk:CClk -g DONE_cycle:4 -g GTS_cycle:5 -g GWE_cycle:6 -g LCK_cycle:NoWait -g Match_cycle:Auto -g Security:None -g DonePipe:No -g DriveDone:No FGPA_IMPLEMENT.ncd 
 
+INFO:Bitgen:40 - Replacing "Auto" with "NoWait" for option "Match_cycle".  Most
+   commonly, bitgen has determined and will use a specific value instead of the
+   generic command-line value of "Auto".  Alternately, this message appears if
+   the same option is specified multiple times on the command-line.  In this
+   case, the option listed last will be used.
 Summary of Bitgen Options:
 +----------------------+----------------------+
 | Option Name          | Current Setting      |
@@ -34,7 +39,7 @@ Summary of Bitgen Options:
 +----------------------+----------------------+
 | DonePin              | Pullup**             |
 +----------------------+----------------------+
-| HswapenPin           | Pullup*              |
+| HswapenPin           | Pullup**             |
 +----------------------+----------------------+
 | M0Pin                | Pullup**             |
 +----------------------+----------------------+
@@ -60,7 +65,7 @@ Summary of Bitgen Options:
 +----------------------+----------------------+
 | LCK_cycle            | NoWait**             |
 +----------------------+----------------------+
-| Match_cycle          | Auto**               |
+| Match_cycle          | NoWait               |
 +----------------------+----------------------+
 | DONE_cycle           | 4**                  |
 +----------------------+----------------------+
@@ -90,6 +95,8 @@ Summary of Bitgen Options:
 +----------------------+----------------------+
 | PartialRight         | (Not Specified)*     |
 +----------------------+----------------------+
+| TimeStamp            | Default*             |
++----------------------+----------------------+
 | IEEE1532             | No*                  |
 +----------------------+----------------------+
 | Binary               | No**                 |
@@ -97,8 +104,16 @@ Summary of Bitgen Options:
  *  Default setting.
  ** The specified setting matches the default setting.
 
+There were 0 CONFIG constraint(s) processed from FGPA_IMPLEMENT.pcf.
+
+
 Running DRC.
 DRC detected 0 errors and 0 warnings.
+INFO:Security:54 - 'xc3s200' is a WebPack part.
+WARNING:Security:42 - Your software subscription period has lapsed. Your current
+version of Xilinx tools will continue to function, but you no longer qualify for
+Xilinx software updates or new releases.
+
 Creating bit map...
-Saving bit stream in "fgpa_implement.bit".
+Saving bit stream in "FGPA_IMPLEMENT.bit".
 Bitstream generation is complete.

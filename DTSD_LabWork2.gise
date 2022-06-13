@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="DTSD_LabWork2.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="DTSD_LabWork2.ntrc_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="FGPA_IMPLEMENT.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="FGPA_IMPLEMENT.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="FGPA_IMPLEMENT.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="FGPA_IMPLEMENT.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="FGPA_IMPLEMENT.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="FGPA_IMPLEMENT.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="FGPA_IMPLEMENT.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="FGPA_IMPLEMENT.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="FGPA_IMPLEMENT.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="FGPA_IMPLEMENT.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="FGPA_IMPLEMENT.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="FGPA_IMPLEMENT.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="FGPA_IMPLEMENT.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FGPA_IMPLEMENT.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="FGPA_IMPLEMENT.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="FGPA_IMPLEMENT.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="FGPA_IMPLEMENT.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="FGPA_IMPLEMENT.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="FGPA_IMPLEMENT.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="FGPA_IMPLEMENT.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="FGPA_IMPLEMENT.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="FGPA_IMPLEMENT.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="FGPA_IMPLEMENT.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="FGPA_IMPLEMENT_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="FGPA_IMPLEMENT_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="FGPA_IMPLEMENT_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="FGPA_IMPLEMENT_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="FGPA_IMPLEMENT_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="FGPA_IMPLEMENT_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="FGPA_IMPLEMENT_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="FGPA_IMPLEMENT_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="FGPA_IMPLEMENT_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="FGPA_IMPLEMENT_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="FGPA_IMPLEMENT_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="FGPA_IMPLEMENT_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="FGPA_IMPLEMENT_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="FGPA_IMPLEMENT_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FGPA_IMPLEMENT_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="FGPA_IMPLEMENT_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="LFSR.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="TestEquipment.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="TestVectorGenerator.ngr"/>
+    <file xil_pn:fileType="FILE_CMD" xil_pn:name="_impact.cmd"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="_impact.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1655134951" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1655134951">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:in_ck="8855757345740902391" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1655134951">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputAdded"/>
+      <outfile xil_pn:name="74HC153N.vhd"/>
+      <outfile xil_pn:name="ButtonDebouncer.vhd"/>
+      <outfile xil_pn:name="Comparator.vhd"/>
+      <outfile xil_pn:name="Comparator_TB.vhd"/>
+      <outfile xil_pn:name="CompressionCounter.vhd"/>
+      <outfile xil_pn:name="CompressionCounter_TB.vhd"/>
+      <outfile xil_pn:name="Controller.vhd"/>
+      <outfile xil_pn:name="Controller_TB.vhd"/>
+      <outfile xil_pn:name="Counter.vhd"/>
+      <outfile xil_pn:name="Counter_TB.vhd"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT.vhd"/>
+      <outfile xil_pn:name="LFSR.vhd"/>
+      <outfile xil_pn:name="LFSR_TB.vhd"/>
+      <outfile xil_pn:name="MUX4x1.vhd"/>
+      <outfile xil_pn:name="MUX_74HC153N_TB.vhd"/>
+      <outfile xil_pn:name="SignatureGenerator.vhd"/>
+      <outfile xil_pn:name="TestEquipment.vhd"/>
+      <outfile xil_pn:name="TestEquipment_TB.vhd"/>
+      <outfile xil_pn:name="TestEquipment_with_UUT_TB.vhd"/>
+      <outfile xil_pn:name="TestVectorGenerator.vhd"/>
+      <outfile xil_pn:name="TestVectorGenerator_TB.vhd"/>
+      <outfile xil_pn:name="UnitUnderTest.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1654965417" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1654965417">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1654965419" xil_pn:in_ck="-7122586262685279138" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-1938120071692319741" xil_pn:start_ts="1654965417">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1654965419" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-927301485570163076" xil_pn:start_ts="1654965419">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1654965419" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1654965419">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1654965419" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-2701432143220533941" xil_pn:start_ts="1654965419">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1654965419" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1110319057727724918" xil_pn:start_ts="1654965419">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1654965419" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="3879212693324126726" xil_pn:start_ts="1654965419">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1655132374" xil_pn:in_ck="1732856811145614797" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="-2587193215275449670" xil_pn:start_ts="1655132355">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="DTSD_LabWork2.ntrc_log"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT.lso"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT.ngc"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT.ngr"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT.prj"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT.stx"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT.syr"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT.xst"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT_vhdl.prj"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT_xst.xrpt"/>
+      <outfile xil_pn:name="LFSR.ngr"/>
+      <outfile xil_pn:name="TestEquipment.ngr"/>
+      <outfile xil_pn:name="TestVectorGenerator.ngr"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1654974564" xil_pn:in_ck="7230332596448600340" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="2783769500687832864" xil_pn:start_ts="1654974564">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1655132385" xil_pn:in_ck="-8852960883254547358" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="6257101382935792100" xil_pn:start_ts="1655132374">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT.bld"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT.ngd"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1655132392" xil_pn:in_ck="-5672184912064965981" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1770721499646849569" xil_pn:start_ts="1655132385">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT.pcf"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT_map.map"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT_map.mrp"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT_map.ncd"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT_map.ngm"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT_map.xrpt"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT_summary.xml"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1655132416" xil_pn:in_ck="5585646823179381372" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="3333849164707216606" xil_pn:start_ts="1655132392">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT.ncd"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT.pad"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT.par"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT.ptwx"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT.unroutes"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT.xpi"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT_pad.csv"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT_pad.txt"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1655132424" xil_pn:in_ck="7230332596448592715" xil_pn:name="TRANEXT_bitFile_spartan3" xil_pn:prop_ck="4026351017656627060" xil_pn:start_ts="1655132416">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT.bgn"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT.bit"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT.drc"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1655135117" xil_pn:in_ck="7230332596448579861" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="-6745644827150672321" xil_pn:start_ts="1655135116">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_impact.cmd"/>
+      <outfile xil_pn:name="_impact.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1655132416" xil_pn:in_ck="-1259499413770020577" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="-1758799009971969894" xil_pn:start_ts="1655132411">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT.twr"/>
+      <outfile xil_pn:name="FGPA_IMPLEMENT.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1654965456" xil_pn:in_ck="-5672184912064965981" xil_pn:name="TRAN_createTimingConstraints" xil_pn:start_ts="1654965456">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+  </transforms>
+
+</generated_project>

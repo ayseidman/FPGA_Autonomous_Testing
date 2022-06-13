@@ -6,6 +6,7 @@ NET SEL_TEST_OUT(1) LOC = P11;
 
 NET Start LOC = L13;
 NET Reset LOC = L14;
+NET reset_clk LOC = M14;
 NET CLK LOC = T9;
 NET Done LOC = K12;
 NET PASS_nFAIL1 LOC = P14;
